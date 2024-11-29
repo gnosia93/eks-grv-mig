@@ -1,4 +1,4 @@
-app to graviton
+app to graviton / db to graviton
 
 * taint for graviton node
 * scheduing graviton pod with deployment canary.
