@@ -17,3 +17,4 @@
 * https://www.eksworkshop.com/docs/fundamentals/managed-node-groups/graviton/
 * https://aws-experience.com/emea/smb/e/70e7a/graviton-developer-day-for-python-go-and-java
 * https://ec2spotworkshops.com/karpenter/050_karpenter/multiple_architectures.html
+* https://medium.com/@iyer.hareesh/cost-optimization-with-aws-graviton-b045bcfaeaf3
