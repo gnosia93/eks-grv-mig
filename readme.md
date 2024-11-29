@@ -1,4 +1,4 @@
-
+fast track graviton 
 
 * taint for graviton node
 * scheduing graviton pod with deployment canary.
