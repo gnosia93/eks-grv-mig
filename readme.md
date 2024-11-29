@@ -5,7 +5,8 @@ app to graviton / db to graviton
 * daemonset migration
 * multi architecture image build.
 * EC2 Image ..
-* Java 
+* Java
+* Web performance
 
 
 
