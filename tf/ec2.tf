@@ -1,7 +1,7 @@
 module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  for_each = toset(["jenkins-x86", "jenkins-grv", "prometheus"])
+  for_each = toset(["jenkins-x86", "jenkins-grv", "prometheus", "nexus3"])
 
   name = "i-${each.key}"
 
