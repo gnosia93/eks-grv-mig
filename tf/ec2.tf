@@ -8,10 +8,10 @@ module "ec2_instance" {
   name = "instance-${each.key}"
 
   instance_type          = "c6i.xlarge"
-  key_name               = "user1"
+  key_name               = "aws-kp-2"
   monitoring             = true
   vpc_security_group_ids = ["sg-12345678"]
-  subnet_id              = "subnet-eddcdzz4"
+  subnet_id              = module.vpc.private_subnets[0]
 
   tags = {
     Terraform   = "true"
