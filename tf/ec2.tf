@@ -10,6 +10,7 @@ module "ec2_instance" {
   monitoring             = true
   vpc_security_group_ids = [module.ec2_sg.security_group_id]
   subnet_id              = module.vpc.public_subnets[0]
+  associate_public_ip_address	= yes
 
   tags = {
     Terraform   = "true"
