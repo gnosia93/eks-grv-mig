@@ -3,7 +3,7 @@ module "ec2_instance" {
 
   for_each = toset(["jenkins-x86", "jenkins-grv", "prometheus"])
 
-  name = "instance-${each.key}"
+  name = "i-${each.key}"
 
   instance_type          = "c6i.xlarge"
   key_name               = "aws-kp-2"
