@@ -1,4 +1,4 @@
-module "ec2_instance" {
+module "ec2_instance_x86" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
   for_each = toset(["jenk-x86", "prome", "nexus3"])
@@ -23,7 +23,7 @@ module "ec2_instance_arm" {
 
   name = "i-jenk-arm}"
 
-  instance_type          = "c6i.xlarge"
+  instance_type          = "c6g.2xlarge"
   key_name               = var.key_pair
   monitoring             = true
   vpc_security_group_ids = [module.ec2_sg.security_group_id]
