@@ -47,6 +47,10 @@ Error: waiting for EKS Node Group (eks-grv-mig:ng-x86-20241209221503109200000015
 │   with module.eks.module.eks_managed_node_group["ng-x86"].aws_eks_node_group.this[0],
 │   on .terraform/modules/eks/modules/eks-managed-node-group/main.tf line 392, in resource "aws_eks_node_group" "this":
 │  392: resource "aws_eks_node_group" "this" {
+
+public subnet 에 NAT GW 를 설치하지 않고 cluster_endpoint_private_access = false 로 설정하여 클러스터를 생성하면
+데이터 플래인과 컨트롤 플레인 간의 통신이 불가능하다. 이런 경우 위와 같은 생성 오류가 발생하며 (생성 과정에서 보통 15-20분 정도 시간이 흐른 후에 오류 발생)
+cluster_endpoint_private_access = true 로 설정하여야 한다.
 */
 
 
