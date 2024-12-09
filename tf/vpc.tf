@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 locals {
-  cluster_name = "eks-grav-mig"
+  cluster_name = "eks-grv-mig"
 }
 
 module "vpc" {
