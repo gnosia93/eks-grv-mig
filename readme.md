@@ -49,3 +49,11 @@ app to graviton / db to graviton
 * https://medium.com/@iyer.hareesh/cost-optimization-with-aws-graviton-b045bcfaeaf3
 
 
+
+## 참고자료 ##
+
+* https://github.com/aws-samples/graviton-workshop/tree/main/graviton/cs_graviton/app
+* https://catalog.workshops.aws/graviton/en-US/amazoncontainers
+
+
+
