@@ -18,3 +18,7 @@ module "ec2_instance" {
     Environment = "dev"
   }
 }
+
+
+# public_subnets
+# https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest?tab=outputs
