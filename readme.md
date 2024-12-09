@@ -10,6 +10,12 @@ app to graviton / db to graviton
 
 
 
+## Performance ##
+
+* [Improving Java performance on Neoverse N1 systems](https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/java-performance-on-neoverse-n1)
+
+
+
 ## 레퍼런스 ##
 
 * https://workshops.aws/?tag=Graviton
@@ -20,3 +26,5 @@ app to graviton / db to graviton
 * https://aws-experience.com/emea/smb/e/70e7a/graviton-developer-day-for-python-go-and-java
 * https://ec2spotworkshops.com/karpenter/050_karpenter/multiple_architectures.html
 * https://medium.com/@iyer.hareesh/cost-optimization-with-aws-graviton-b045bcfaeaf3
+
+
