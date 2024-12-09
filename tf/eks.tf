@@ -19,6 +19,28 @@ module "eks" {
   vpc_id     = module.vpc.vpc_id
   subnet_ids = module.vpc.private_subnets
 
+  # EKS Managed Node Group(s)
+  eks_managed_node_group_defaults = {
+    instance_types = ["c6i.2xlarge", "c6g.2xlarge"]
+  }
+
+  eks_managed_node_groups = {
+    example = {
+      # Starting on 1.30, AL2023 is the default AMI type for EKS managed node groups
+      ami_type       = "AL2023_x86_64_STANDARD"
+      instance_types = ["m5.xlarge"]
+
+      min_size     = 2
+      max_size     = 10
+      desired_size = 2
+    }
+  }
+
+
+
+
+
+
   cloudwatch_log_group_retention_in_days = 1
 }
 
