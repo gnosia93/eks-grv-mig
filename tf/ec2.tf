@@ -21,7 +21,7 @@ module "ec2_sg" {
     },
   ]
 }
-Copy
+# https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/latest
 
 
 module "ec2_instance" {
