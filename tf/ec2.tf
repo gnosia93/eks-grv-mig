@@ -20,3 +20,4 @@ module "ec2_instance" {
 
 # public_subnets
 # https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest?tab=outputs
+# https://library.tf/modules/terraform-aws-modules/ec2-instance/aws/latest
