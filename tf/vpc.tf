@@ -17,6 +17,7 @@ module "vpc" {
   public_subnets  = ["10.0.100.0/22", "10.0.104.0/22"]
 
   enable_dns_hostnames = true
+  map_public_ip_on_launch = true
 
   public_subnet_tags = {
     "kubernetes.io/cluster/${local.cluster_name}" = "shared"
