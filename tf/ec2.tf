@@ -6,7 +6,7 @@ module "ec2_instance" {
   name = "i-${each.key}"
 
   instance_type          = "c6i.xlarge"
-  key_name               = "aws-kp-2"
+  key_name               = var.key_pair
   monitoring             = true
   vpc_security_group_ids = [module.ec2_sg.security_group_id]
   subnet_id              = module.vpc.public_subnets[0]
