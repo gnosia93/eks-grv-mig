@@ -7,14 +7,12 @@ module "eks" {
   cluster_endpoint_private_access = true
   cluster_endpoint_public_access  = true
 
+  bootstrap_self_managed_addons = false
   cluster_addons = {
-    coredns = {
-      resolve_conflicts = "OVERWRITE"
-    }
-    kube-proxy = {}
-    vpc-cni = {
-      resolve_conflicts = "OVERWRITE"
-    }
+    coredns                = {}
+    eks-pod-identity-agent = {}
+    kube-proxy             = {}
+    vpc-cni                = {}
   }
 
   vpc_id     = module.vpc.vpc_id
