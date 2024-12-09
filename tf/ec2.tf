@@ -34,7 +34,7 @@ module "ec2_instance" {
   instance_type          = "c6i.xlarge"
   key_name               = "aws-kp-2"
   monitoring             = true
-  vpc_security_group_ids = ["sg-12345678"]
+  vpc_security_group_ids = [module.security-group.security_group_id]
   subnet_id              = module.vpc.private_subnets[0]
 
   tags = {
