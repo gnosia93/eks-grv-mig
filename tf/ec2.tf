@@ -21,7 +21,7 @@ module "ec2_instance_x86" {
 module "ec2_instance_arm" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  name = "i-jenk-arm}"
+  name = "i-jenk-arm"
 
   instance_type          = "c6g.2xlarge"
   key_name               = var.key_pair
