@@ -28,10 +28,10 @@ module "vpc" {
     "kubernetes.io/role/internal-elb"             = "1"
   }
 
-  
-
   tags = {
     Terraform = "true"
     Environment = "dev"
   }
 }
+
+# https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest
