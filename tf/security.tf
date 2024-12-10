@@ -13,7 +13,7 @@ module "ec2_sg" {
       protocol    = "tcp"
       description = "User-service ports"
       cidr_blocks = ["10.10.0.0/16", "0.0.0.0/0"]
-    },
+    }
   ]
 }
 # https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/latest
