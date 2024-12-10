@@ -13,7 +13,7 @@ data "aws_ami" "ubuntu-arm" {
   }
 }
 
-data "aws_ami" "ubuntu-arm" {
+data "aws_ami" "ubuntu-x86" {
   most_recent = true
   owners      = ["099720109477"]
 
@@ -36,6 +36,7 @@ module "ec2_instance_x86" {
   name = "x86-${each.key}"
 
   instance_type          = "c6i.xlarge"
+  ami                    = data.aws_ami.ubuntu-x86.id
   key_name               = var.key_pair
   monitoring             = true
   vpc_security_group_ids = [module.ec2_sg.security_group_id]
