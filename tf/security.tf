@@ -9,7 +9,6 @@ module "ec2_sg" {
       from_port   = 8080
       to_port     = 8090
       protocol    = "tcp"
-      description = "User-service ports"
       cidr_blocks = "0.0.0.0/0"
     },
     {  
