@@ -4,20 +4,9 @@ module "eks" {
 
   cluster_name                    = local.cluster_name
   cluster_version                 = "1.31"
+
   cluster_endpoint_private_access = true
   cluster_endpoint_public_access  = true
-
- # Optional: Adds the current caller identity as an administrator via cluster access entry
-  enable_cluster_creator_admin_permissions = true
-
-
-  bootstrap_self_managed_addons = false
-  cluster_addons = {
-    coredns                = {}
-    eks-pod-identity-agent = {}
-    kube-proxy             = {}
-    vpc-cni                = {}
-  }
 
   vpc_id     = module.vpc.vpc_id
   subnet_ids = module.vpc.private_subnets
@@ -33,13 +22,11 @@ module "eks" {
       ami_type       = "AL2023_x86_64_STANDARD"
       instance_types = ["c6i.2xlarge"]
 
-      min_size     = 3
+      min_size     = 1
       max_size     = 3
-      desired_size = 3
+      desired_size = 2
     }
   }
-
-  cloudwatch_log_group_retention_in_days = 1
 }
 
 # https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest
