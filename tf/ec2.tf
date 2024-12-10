@@ -51,6 +51,7 @@ module "ec2_instance_arm" {
   }
 }
 
+# ami finder - https://hoonii2.tistory.com/31
 
 # public_subnets
 # https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest?tab=outputs
