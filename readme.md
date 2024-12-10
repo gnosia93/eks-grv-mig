@@ -2,7 +2,7 @@
 
 1. [EKS 클러스터 생성하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
 
-2. 멀티 아키텍처 이미지 빌드하기
+2. [멀티 아키텍처 이미지 빌드하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image.md)
     - buildx 사용해 보기.
     - 인스턴스 타입별로 빌드하기
 
