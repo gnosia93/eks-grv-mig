@@ -1,10 +1,11 @@
 data "aws_ami" "ubuntu" {
   most_recent = true
-  owners      = ["679593333241"]
+  owners      = ["099720109477"]
 
   filter {
     name   = "name"
-    values = ["ubuntu-minimal/images/hvm-ssd/ubuntu-focal-20.04-*"]
+  #  values = ["ubuntu-minimal/images/hvm-ssd/ubuntu-focal-20.04-*"]
+    values = ["ubuntu-pro-server/images/hvm-ssd-gp3/ubuntu-noble-24.04-arm64-pro-server-*"]
   }
 
   filter {
