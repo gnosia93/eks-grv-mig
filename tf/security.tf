@@ -1,7 +1,7 @@
 module "ec2_sg" {
   source = "terraform-aws-modules/security-group/aws"
 
-  name        = "user-service"
+  name        = "eks-grv-mig"
   vpc_id      = module.vpc.vpc_id
 
   ingress_with_cidr_blocks = [
