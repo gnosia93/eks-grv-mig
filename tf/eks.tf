@@ -11,11 +11,6 @@ module "eks" {
   vpc_id     = module.vpc.vpc_id
   subnet_ids = module.vpc.private_subnets
 
-  # EKS Managed Node Group(s)
-  eks_managed_node_group_defaults = {
-    instance_types = ["c6i.2xlarge", "c6g.2xlarge"]
-  }
-
   eks_managed_node_groups = {
     ng-x86 = {
       # Starting on 1.30, AL2023 is the default AMI type for EKS managed node groups
