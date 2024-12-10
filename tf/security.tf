@@ -10,11 +10,13 @@ module "ec2_sg" {
       from_port   = 8080
       to_port     = 8090
       protocol    = "tcp"
-      cidr_blocks = "0.0.0.0/0"
+      cidr_blocks = var.vpc_cidr_block
+      prefix_list_ids = [ "pl-e1a54088" ]
     },
     {  
       rule        = "ssh-tcp"
-      cidr_blocks = "0.0.0.0/0"
+      cidr_blocks = var.vpc_cidr_block
+      prefix_list_ids = [ "pl-e1a54088" ]
     },
   ]
   
