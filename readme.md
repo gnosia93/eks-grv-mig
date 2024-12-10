@@ -1,6 +1,6 @@
 ## 시나리오 ##
 
-1. [EKS 클러스터 생성하기]()
+1. [EKS 클러스터 생성하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
 
 3. 자바 어플리케이션 배포하기 (X86 디플로이먼트)
 4. graviton 노드 그룹 추가하기
