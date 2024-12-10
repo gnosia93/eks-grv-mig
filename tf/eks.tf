@@ -55,8 +55,9 @@ public subnet 에 NAT GW 를 설치하지 않고 cluster_endpoint_private_access
 데이터 플래인과 컨트롤 플레인 간의 통신이 불가능하다. 이런 경우 위와 같은 생성 오류가 발생한다. (생성 과정에서 보통 15-20분 정도 시간이 흐른 후에 오류 발생)
 
 해결방법:
-  1. public 서브넷이 Nat gw 를 설치하거나,
-  2. eks control plan 의 443 port 를 data plan security group 를 대상으로 해서 열어준다. 
+  1. public 서브넷이 Nat gw 를 설치하거나, (이게 가장 좋은 듯)
+  2. eks control plan 의 443 port 를 data plan security group 를 대상으로 해서 열어준다.
+     또한 아래 cluster private endpoint 글을 참고해서 vpc 를 설정해야 한다.. (테스트 해 보진 않았음)
 */
 
 /*
