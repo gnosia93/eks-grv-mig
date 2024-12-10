@@ -1,4 +1,4 @@
-data "aws_ami" "ubuntu" {
+data "aws_ami" "ubuntu-arm" {
   most_recent = true
   owners      = ["099720109477"]
 
@@ -40,6 +40,7 @@ module "ec2_instance_arm" {
   name = "arm-jenk"
 
   instance_type          = "c6g.2xlarge"
+  ami                    = ${aws_ami.ubuntu-arm}
   key_name               = var.key_pair
   monitoring             = true
   vpc_security_group_ids = [module.ec2_sg.security_group_id]
