@@ -6,4 +6,4 @@
 
 ## CD ##
 
-* https://berrrrr.github.io/programming/2020/01/12/what-is-spinnaker/
+* [spinnaker 란?](https://berrrrr.github.io/programming/2020/01/12/what-is-spinnaker/)
