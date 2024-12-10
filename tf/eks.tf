@@ -52,8 +52,11 @@ Error: waiting for EKS Node Group (eks-grv-mig:ng-x86-20241209221503109200000015
 │  392: resource "aws_eks_node_group" "this" {
 
 public subnet 에 NAT GW 를 설치하지 않고 cluster_endpoint_private_access = false 로 설정하여 클러스터를 생성하면
-데이터 플래인과 컨트롤 플레인 간의 통신이 불가능하다. 이런 경우 위와 같은 생성 오류가 발생하며 (생성 과정에서 보통 15-20분 정도 시간이 흐른 후에 오류 발생)
-cluster_endpoint_private_access = true 로 설정하여야 한다.
+데이터 플래인과 컨트롤 플레인 간의 통신이 불가능하다. 이런 경우 위와 같은 생성 오류가 발생한다. (생성 과정에서 보통 15-20분 정도 시간이 흐른 후에 오류 발생)
+
+해결방법:
+  1. public 서브넷이 Nat gw 를 설치하거나,
+  2. eks control plan 의 443 port 를 data plan security group 를 대상으로 해서 열어준다. 
 */
 
 /*
