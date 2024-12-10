@@ -42,7 +42,17 @@ module "ec2_instance_x86" {
   vpc_security_group_ids = [module.ec2_sg.security_group_id]
   subnet_id              = module.vpc.public_subnets[0]
   associate_public_ip_address	= "true" 
-  user_data              = 
+  user_data              = <<_DATA
+#! /bin/bash
+sudo yum install -y python
+sudo yum install -y python3-pip
+sudo yum install -y git
+pip install locust
+pip install faker
+locust -V
+_DATA
+
+
   tags = {
     Terraform   = "true"
     Environment = "dev"
