@@ -18,13 +18,14 @@ module "ec2_sg" {
   ]
   
   egress_with_cidr_blocks = [
-        {
-            cidr_blocks = [ "0.0.0.0/0" ]
-            from_port = 0
-            to_port = 0
-            protocol = "-1"
-        }
-  ]   
+    {
+      from_port   = 0
+      to_port     = 0
+      protocol    = "-1"
+      description = "All traffic"
+      cidr_blocks = "0.0.0.0/0"
+    }
+  ]
   
 
 }
