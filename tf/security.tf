@@ -11,12 +11,12 @@ module "ec2_sg" {
       to_port     = 8090
       protocol    = "tcp"
       cidr_blocks = [ var.your_ip_cidr ]
-      prefix_list_ids = [ "pl-e1a54088" ]
+#      prefix_list_ids = [ "pl-e1a54088" ]
     },
     {  
       rule        = "ssh-tcp"
       cidr_blocks = [ var.your_ip_cidr ]
-      prefix_list_ids = [ "pl-e1a54088" ]
+#      prefix_list_ids = [ "pl-e1a54088" ]
     },
   ]
   
