@@ -40,7 +40,7 @@ module "ec2_instance_arm" {
   name = "arm-jenk"
 
   instance_type          = "c6g.2xlarge"
-  ami                    = ${aws_ami.ubuntu-arm}
+  ami                    = data.aws_ami.ubuntu-arm.id
   key_name               = var.key_pair
   monitoring             = true
   vpc_security_group_ids = [module.ec2_sg.security_group_id]
