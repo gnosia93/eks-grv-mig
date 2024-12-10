@@ -1,3 +1,18 @@
+data "aws_ami" "ubuntu" {
+  most_recent = true
+  owners      = ["679593333241"]
+
+  filter {
+    name   = "name"
+    values = ["ubuntu-minimal/images/hvm-ssd/ubuntu-focal-20.04-*"]
+  }
+
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
+}
+
 module "ec2_instance_x86" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
