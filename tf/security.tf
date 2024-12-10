@@ -3,6 +3,7 @@ module "ec2_sg" {
 
   name        = "eks-grv-mig"
   vpc_id      = module.vpc.vpc_id
+  use_name_prefix = false
 
   ingress_with_cidr_blocks = [
     {
