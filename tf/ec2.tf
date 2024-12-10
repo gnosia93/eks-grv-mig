@@ -4,8 +4,22 @@ data "aws_ami" "ubuntu-arm" {
 
   filter {
     name   = "name"
-  #  values = ["ubuntu-minimal/images/hvm-ssd/ubuntu-focal-20.04-*"]
     values = ["ubuntu-pro-server/images/hvm-ssd-gp3/ubuntu-noble-24.04-arm64-pro-server-*"]
+  }
+
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
+}
+
+data "aws_ami" "ubuntu-arm" {
+  most_recent = true
+  owners      = ["099720109477"]
+
+  filter {
+    name   = "name"
+    values = ["ubuntu-pro-server/images/hvm-ssd/ubuntu-jammy-22.04-amd64-pro-server-*"]
   }
 
   filter {
