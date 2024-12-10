@@ -3,7 +3,7 @@ module "ec2_instance_x86" {
 
   for_each = toset(["jenk-x86", "prome", "nexus3"])
 
-  name = "i-${each.key}"
+  name = "x86-${each.key}"
 
   instance_type          = "c6i.xlarge"
   key_name               = var.key_pair
@@ -21,7 +21,7 @@ module "ec2_instance_x86" {
 module "ec2_instance_arm" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  name = "i-jenk-arm"
+  name = "arm-jenk"
 
   instance_type          = "c6g.2xlarge"
   key_name               = var.key_pair
