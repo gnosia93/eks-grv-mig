@@ -2,12 +2,13 @@
 
 1. [EKS 클러스터 생성하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
 
-3. 자바 어플리케이션 배포하기 (X86 디플로이먼트)
-4. graviton 노드 그룹 추가하기
-5. 멀티 아키텍처 이미지 빌드하기
+2. 멀티 아키텍처 이미지 빌드하기
     - buildx 사용해 보기.
     - 인스턴스 타입별로 빌드하기
-6. 배포하기
+
+3. graviton 노드 그룹 추가하기
+
+5. 배포하기
     - 파드 하나만 arm 노드에 배치해 보기 (서비스 pod selector 이용)
     - 카나리 배포 / 롤백하기 ; node affinity 를 이용한다. 결국 모두다 arm 노드로 배치될 예정이므로, ...      
     - 블루/그린 배포 / 롤백하기 ; node selector 를 이용한다..
