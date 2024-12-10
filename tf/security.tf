@@ -17,7 +17,7 @@ module "ec2_sg" {
     },
   ]
   
-  egress_with_cidr_blocks = [ 
+  egress_with_cidr_blocks = [
         {
             cidr_blocks = [ "0.0.0.0/0" ]
             from_port = 0
