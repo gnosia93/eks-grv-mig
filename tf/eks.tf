@@ -56,4 +56,7 @@ public subnet 에 NAT GW 를 설치하지 않고 cluster_endpoint_private_access
 cluster_endpoint_private_access = true 로 설정하여야 한다.
 */
 
+/*
+https://seungjjun.tistory.com/314
+*/
 
