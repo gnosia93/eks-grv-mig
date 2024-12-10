@@ -1,7 +1,7 @@
 module "ec2_sg" {
   source = "terraform-aws-modules/security-group/aws"
 
-  name        = "sg-eks-grv-mig"
+  name        = "eks-grv-mig-sg"
   vpc_id      = module.vpc.vpc_id
   use_name_prefix = false
 
