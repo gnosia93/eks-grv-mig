@@ -63,3 +63,21 @@ public subnet 에 NAT GW 를 설치하지 않고 cluster_endpoint_private_access
 https://seungjjun.tistory.com/314
 */
 
+
+/*
+https://docs.aws.amazon.com/eks/latest/userguide/cluster-endpoint.html 
+Cluster private endpoint
+
+You can enable private access to the Kubernetes API server so that all communication between your nodes and the API server stays within your VPC. You can limit the IP addresses that can access your API server from the internet, or completely disable internet access to the API server.
+
+Note
+Because this endpoint is for the Kubernetes API server and not a traditional AWS PrivateLink endpoint for communicating with an AWS API, it doesn’t appear as an endpoint in the Amazon VPC console.
+
+When you enable endpoint private access for your cluster, Amazon EKS creates a Route 53 private hosted zone on your behalf and associates it with your cluster’s VPC. This private hosted zone is managed by Amazon EKS, and it doesn’t appear in your account’s Route 53 resources. In order for the private hosted zone to properly route traffic to your API server, your VPC must have enableDnsHostnames and enableDnsSupport set to true, and the DHCP options set for your VPC must include AmazonProvidedDNS in its domain name servers list. For more information, see Updating DNS support for your VPC in the Amazon VPC User Guide.
+
+You can define your API server endpoint access requirements when you create a new cluster, and you can update the API server endpoint access for a cluster at any time.
+*/
+
+
+
+
