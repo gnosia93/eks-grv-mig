@@ -34,7 +34,7 @@ module "eks" {
     ng-arm = {
       name             = "ng-arm"
       use_name_prefix	 = "false"
-      ami_type         = "AL2023_x86_64_STANDARD"
+      ami_type         = "AL2023_ARM_64_STANDARD"
       instance_types   = ["c6g.2xlarge"]
 
       min_size     = 1
