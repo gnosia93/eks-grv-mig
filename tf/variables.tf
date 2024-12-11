@@ -9,7 +9,7 @@ variable "your_ip_cidr" {
 }
 
 locals {
-  cluster_name = "eks-grv-adt"
+  cluster_name = "eks-grv-mig"
 }
 
 # https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EB%82%B4%EC%95%84%EC%9D%B4%ED%94%BC&qdt=0&ie=utf8&query=%EB%82%B4%EC%95%84%EC%9D%B4%ED%94%BC
