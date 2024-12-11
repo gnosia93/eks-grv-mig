@@ -2,10 +2,6 @@ provider "aws" {
   region = "ap-northeast-2"
 }
 
-locals {
-  cluster_name = "eks-grv-adt"
-}
-
 resource "aws_eip" "nat" {
   count = 1
   domain = "vpc"
