@@ -1,10 +1,9 @@
 ## 시나리오 ##
 
-1. [EKS 클러스터 생성하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
+1. [EKS 클러스터 생성하기(eks provision)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
 
-2. [Multi 아키텍처 이미지 빌드하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image.md)
+2. [Multi 아키텍처 이미지 빌드하기(multi architecture image build)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image.md)
     
-
 3. graviton 노드 그룹 추가하기
 
 4. 수동으로 배포하기
