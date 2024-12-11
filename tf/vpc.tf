@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 locals {
-  cluster_name = "eks-grv-mig"
+  cluster_name = "eks-grv-adt"
 }
 
 resource "aws_eip" "nat" {
