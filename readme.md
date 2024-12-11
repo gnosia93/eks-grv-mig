@@ -18,7 +18,7 @@
 7. CD 파이프 라인 구축하기 (Spinnaker)
 
 8. 성능 측정하기
-    - 프로메테우스 / 그라파나 설치
+    - [프로메테우스 / 그라파나 설치](https://github.com/gnosia93/eks-grv-adp/blob/main/tutorial/7.prometheus.md)
     - locust ?? 성능 측정(?)
     
 9. 로그 관찰하기  
