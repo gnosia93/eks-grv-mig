@@ -30,6 +30,17 @@ module "eks" {
       max_size     = 3
       desired_size = 2
     }
+
+    ng-arm = {
+      name             = "ng-arm"
+      use_name_prefix	 = "false"
+      ami_type         = "AL2023_x86_64_STANDARD"
+      instance_types   = ["c6g.2xlarge"]
+
+      min_size     = 1
+      max_size     = 3
+      desired_size = 2
+    }
   }
 }
 
