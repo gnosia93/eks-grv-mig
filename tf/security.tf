@@ -8,7 +8,7 @@ module "ec2_sg" {
   ingress_with_cidr_blocks = [
     {
       from_port   = 8080
-      to_port     = 8090
+      to_port     = 9090
       protocol    = "tcp"
       cidr_blocks = var.your_ip_cidr
 #      prefix_list_ids = [ "pl-e1a54088" ]
