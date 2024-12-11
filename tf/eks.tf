@@ -22,7 +22,7 @@ module "eks" {
   eks_managed_node_groups = {
     ng-x86 = {
       name             = "ng-x86"
-      use_name_prefix	= "false"
+      use_name_prefix	 = "false"
       ami_type         = "AL2023_x86_64_STANDARD"
       instance_types   = ["c6i.2xlarge"]
 
