@@ -3,8 +3,10 @@
 1. [EKS 클러스터 생성하기(eks provision)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
 
 2. [Multi 아키텍처 이미지 빌드하기(multi architecture image build)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image.md)
-    
-3. [Graviton 노드 그룹 추가하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/3.graviton-nodegroup.md)
+
+3. [X86 노드에 어플리케이션 실행하기]()
+       
+4. [Graviton 노드 그룹 추가하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/3.graviton-nodegroup.md)
 
 5. 수동으로 배포하기
     - 파드 하나만 arm 노드에 배치해 보기 (서비스 pod selector 이용)
