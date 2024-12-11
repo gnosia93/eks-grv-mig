@@ -31,7 +31,8 @@ module "eks" {
       desired_size = 2
     }
 
-/* ng-arm nodegroup is disabled at first 
+# ng-arm nodegroup is disabled at first 
+/* 
     ng-arm = {
       name             = "ng-arm"
       use_name_prefix	 = "false"
