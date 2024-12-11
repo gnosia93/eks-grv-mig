@@ -54,5 +54,4 @@ app to graviton / db to graviton
 * https://github.com/aws-samples/graviton-workshop/tree/main/graviton/cs_graviton/app
 * https://catalog.workshops.aws/graviton/en-US/amazoncontainers
 * https://github.com/aws/aws-graviton-getting-started/blob/main/java.md
-* https://gruuuuu.github.io/cloud/1multiarch-docker/
-* [Multi-Architecture Docker Image](https://medium.com/illumination/multi-architecture-docker-image-3637ba05e5eb)
+
