@@ -10,15 +10,10 @@ module "eks" {
 
   # addon 구성 
   cluster_addons = {
-    coredns = {
-      most_recent = true
-    }
-    kube-proxy = {
-      most_recent = true
-    }
-    vpc-cni = {
-      most_recent = true
-    }
+    coredns                 = { most_recent = true }
+    kube-proxy              = { most_recent = true }
+    vpc-cni                 = { most_recent = true }
+    eks-pod-identity-agent  = { most_recent = true }
   }
 
   vpc_id     = module.vpc.vpc_id
