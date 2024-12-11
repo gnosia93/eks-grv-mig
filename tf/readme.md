@@ -22,3 +22,7 @@ Command 'java' not found, but can be installed with:
 - sudo apt install openjdk-19-jdk-headless  # version 19.0.2+7-0ubuntu3~22.04
 - sudo apt install openjdk-21-jdk-headless  # version 21.0.4+7-1ubuntu2~22.04
 - sudo apt install openjdk-8-jdk-headless   # version 8u422-b05-1~22.04
+
+
+## Docker Buildx with Multi Arch ##
+* https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/
