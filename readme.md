@@ -12,7 +12,7 @@
     - 블루/그린 배포 / 롤백하기 ; node selector 를 이용한다..
       
 5. CI 파이프 라인과 연결하기
-    - [젠킨스 설치하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/7.jenkins.md)
+    - [젠킨스 설치하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.jenkins.md)
     - [파이프 라인 구성하기]
       
 6. CD 파이프 라인 구축하기 (Spinnaker)
