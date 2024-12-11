@@ -6,9 +6,9 @@
 
 3. [X86 노드에서 어플리케이션 실행하기]()
        
-4. [Graviton 노드 그룹 추가하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/3.graviton-nodegroup.md)
+4. [Graviton 노드 추가하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/3.graviton-nodegroup.md)
 
-5. 수동으로 배포하기
+5. Graviton 노드에 어플리케이션 배포하기
     - 파드 하나만 arm 노드에 배치해 보기 (서비스 pod selector 이용)
     - 카나리 배포 / 롤백하기 ; node affinity 를 이용한다. 결국 모두다 arm 노드로 배치될 예정이므로, ...      
     - 블루/그린 배포 / 롤백하기 ; node selector 를 이용한다..
