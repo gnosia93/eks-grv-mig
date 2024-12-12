@@ -33,15 +33,6 @@
 
 
 
-
-
-## Performance ##
-
-* [Improving Java performance on Neoverse N1 systems](https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/java-performance-on-neoverse-n1)
-
-
-
-
 ## 참고자료 ##
 
 * https://github.com/aws-samples/graviton-workshop/tree/main/graviton/cs_graviton/app
