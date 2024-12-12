@@ -14,6 +14,7 @@ module "eks" {
     kube-proxy              = { most_recent = true }
     vpc-cni                 = { most_recent = true }
     eks-pod-identity-agent  = { most_recent = true }
+    aws-ebs-csi-driver      = { most_recent = true }
   }
 
   vpc_id     = module.vpc.vpc_id
