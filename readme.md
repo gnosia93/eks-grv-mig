@@ -20,7 +20,7 @@
     - locust ?? 성능 측정(?)
 
 
-----
+## Optional ##
       
 7. CI-CD 파이프 라인과 연결하기
     - [젠킨스 설치하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.jenkins.md)
@@ -31,16 +31,7 @@
    - fluentd 설치
    - kubectl logs 
 
-## ... ##
 
-app to graviton / db to graviton
-
-* taint for graviton node
-* scheduing graviton pod with deployment canary.
-* daemonset migration
-* EC2 Image Build.
-* Java
-* Web performance
 
 
 
