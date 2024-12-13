@@ -20,9 +20,3 @@
     - locust ?? 성능 측정(?)
 
 
-## 참고자료 ##
-
-* https://github.com/aws-samples/graviton-workshop/tree/main/graviton/cs_graviton/app
-* https://catalog.workshops.aws/graviton/en-US/amazoncontainers
-* https://github.com/aws/aws-graviton-getting-started/blob/main/java.md
-
