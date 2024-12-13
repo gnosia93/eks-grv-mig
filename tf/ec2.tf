@@ -90,6 +90,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 sudo apt install -y jq
 sudo apt install -y awscli
 sudo apt install -y openjdk-17-jdk-headless
+sudo apt install -y apache2-utils
 _DATA
 
   tags = {
