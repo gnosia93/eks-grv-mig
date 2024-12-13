@@ -20,19 +20,6 @@
     - locust ?? 성능 측정(?)
 
 
-## Optional ##
-      
-7. CI-CD 파이프 라인과 연결하기
-    - [젠킨스 설치하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.jenkins.md)
-    - [Spinnake]
-    - [파이프 라인 구성하기]
-    
-8. 로그 관찰하기  
-   - fluentd 설치
-   - kubectl logs 
-
-
-
 ## 참고자료 ##
 
 * https://github.com/aws-samples/graviton-workshop/tree/main/graviton/cs_graviton/app
