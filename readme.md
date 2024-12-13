@@ -1,3 +1,5 @@
+![](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/images/ws-arch.png)
+
 ## 시나리오 ##
 
 1. [EKS 클러스터 생성하기(eks provision)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
