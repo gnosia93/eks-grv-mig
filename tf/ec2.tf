@@ -54,9 +54,11 @@ echo \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo apt install -y jq
-sudo apt install -y awscli
 sudo apt install -y openjdk-17-jdk-headless
+sudo apt install -y unzip
 sudo apt remove -y awscli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" ;unzip awscliv2.zip; sudo ./aws/install
+echo "PATH=${PATH}:/usr/local/bin" >> ~/.profile
 _DATA
 
   tags = {
