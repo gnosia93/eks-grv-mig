@@ -55,7 +55,6 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo apt install -y jq
 sudo apt install -y openjdk-17-jdk-headless
-sudo apt install -y unzip
 _DATA
 
   tags = {
@@ -67,7 +66,7 @@ _DATA
 module "ec2_instance_arm" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  for_each = toset(["jenk", "prome"])
+  for_each = toset(["perf"])
   name = "arm-${each.key}"
 
   instance_type          = "c6g.2xlarge"
