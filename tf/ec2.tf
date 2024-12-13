@@ -69,7 +69,7 @@ module "ec2_instance_arm" {
   for_each = toset(["perf"])
   name = "arm-${each.key}"
 
-  instance_type          = "c6g.xlarge"
+  instance_type          = "c6g.4xlarge"
   ami                    = data.aws_ami.ubuntu-arm.id
   key_name               = var.key_pair
   monitoring             = true
