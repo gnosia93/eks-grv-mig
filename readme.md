@@ -1,7 +1,7 @@
 ## eks-grv-mig ## 
 ![](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/images/ws-arch.png)
 
-실습을 진행하기 위해서는 로컬 PC(랩탑) 에 terraform, kubectl, eksctl, helm 등과 같은 어플리케이션을 설치해야 한다.
+로컬 PC(랩탑) 에 terraform, kubectl, eksctl, helm 등을 설치하고, 필요한 자원을 프로비저닝 합니다.
 
 ## 시나리오 ##
 
