@@ -31,9 +31,9 @@ data "aws_ami" "ubuntu-x86" {
 module "ec2_instance_x86" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  for_each = toset(["admin"])
+  for_each = toset(["jenk"])
 
-  name = "ws-${each.key}"
+  name = "x86-${each.key}"
 
   instance_type          = "c6i.xlarge"
   ami                    = data.aws_ami.ubuntu-x86.id
@@ -56,16 +56,6 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 sudo apt install -y jq
 sudo apt install -y openjdk-17-jdk-headless
 sudo apt install -y unzip
-sudo apt remove -y awscli
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" ;unzip awscliv2.zip; sudo ./aws/install
-echo "PATH=${PATH}:/usr/local/bin" >> ~/.profile
-curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.0/2024-09-12/bin/linux/amd64/kubectl.sha256; chmod +x ./kubectl; sudo mv kubectl /usr/local/bin
-curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
-sudo apt-get install apt-transport-https --yes
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
-sudo apt-get update
-sudo apt-get install helm
-
 _DATA
 
   tags = {
