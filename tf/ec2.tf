@@ -59,6 +59,7 @@ sudo apt install -y unzip
 sudo apt remove -y awscli
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" ;unzip awscliv2.zip; sudo ./aws/install
 echo "PATH=${PATH}:/usr/local/bin" >> ~/.profile
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.0/2024-09-12/bin/linux/amd64/kubectl.sha256; chmod +x ./kubectl; sudo mv kubectl /usr/local/bin
 _DATA
 
   tags = {
