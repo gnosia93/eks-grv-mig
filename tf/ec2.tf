@@ -33,7 +33,7 @@ module "ec2_instance_x86" {
 
   for_each = toset(["admin"])
 
-  name = "x86-${each.key}"
+  name = "ws-${each.key}"
 
   instance_type          = "c6i.xlarge"
   ami                    = data.aws_ami.ubuntu-x86.id
