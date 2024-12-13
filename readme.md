@@ -16,8 +16,8 @@
 5. [어플리케이션 마이그레이션 하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.app-mig.md)
    
 6. 성능 측정하기
-    - [프로메테우스 / 그라파나 설치](https://github.com/gnosia93/eks-grv-adp/blob/main/tutorial/7.prometheus.md)
-    - locust ?? 성능 측정(?)
+    - [프로메테우스 / 그라파나 설치](https://github.com/gnosia93/eks-grv-adp/blob/main/tutorial/6.perf-prometheus.md)
+    - [성능 측정하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-mon.md)
 
 
 ## Revision History ##
