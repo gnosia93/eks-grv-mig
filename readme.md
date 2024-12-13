@@ -1,6 +1,5 @@
 ## eks-grv-mig ## 
-![](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/images/ws-arch.png)
-
+![](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/images/ws-archi-1.png)
 이 워크샵에서는 x86 노드로 구성된 eks 클러스터를 aws graviton 인스턴스로 전환하는 방법을 설명합니다. 실습을 진행하기 위해서 terraform, kubectl, eksctl, helm 등을 로컬 PC 에 설치하고, 필요한 리소스를 프로비저닝 합니다. 
 
 ## 시나리오 ##
