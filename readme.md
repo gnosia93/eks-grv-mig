@@ -16,7 +16,7 @@
    
     - [프로메테우스 / 그라파나 설치](https://github.com/gnosia93/eks-grv-adp/blob/main/tutorial/5.perf-prometheus.md)
     - [성능 모니터링 설정](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.perf-mon.md)
-    - [부하 테스트](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.perf-ab.md)
+    - [부하 테스트(x86 vs 그리비톤)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.perf-ab.md)
 
 6. [어플리케이션 마이그레이션 하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.app-mig.md)
 
