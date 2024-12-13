@@ -10,15 +10,17 @@
 
 3. [X86 노드에서 어플리케이션 실행하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/3.x86-app.md)
        
-4. [Graviton 노드 추가 및 어플리케이션 배포](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/4.graviton-nodegroup.md)
+4. [Graviton 노드 추가하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/4.graviton-nodegroup.md)
+
+5. [Graviton 노드 어플리케이션 배포하기]()
    
-5. 성능 측정하기
+6. 성능 측정하기
    
     - [프로메테우스 / 그라파나 설치](https://github.com/gnosia93/eks-grv-adp/blob/main/tutorial/6.perf-prometheus.md)
     - [성능 모니터링 설정](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-mon.md)
     - [부하 테스트](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-ab.md)
 
-6. [어플리케이션 마이그레이션 하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/7.app-mig.md)
+7. [어플리케이션 마이그레이션 하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/7.app-mig.md)
 
 ## Revision History ##
 * 2024-12-13 First Released
