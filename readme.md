@@ -10,11 +10,6 @@
 
 5. [어플리케이션 마이그레이션 하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.app-mig.md)
    
-    - 파드 하나만 arm 노드에 배치해 보기 (서비스 pod selector 이용)
-    - 카나리 배포 ; node affinity 를 이용한다. 결국 모두다 arm 노드로 배치될 예정이므로, ...      
-    - 블루/그린 배포 ; node selector 를 이용한다.
-    - 롤백하기 
-
 6. 성능 측정하기
     - [프로메테우스 / 그라파나 설치](https://github.com/gnosia93/eks-grv-adp/blob/main/tutorial/7.prometheus.md)
     - locust ?? 성능 측정(?)
