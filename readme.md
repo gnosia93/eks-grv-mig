@@ -20,3 +20,5 @@
     - locust ?? 성능 측정(?)
 
 
+## Revision History ##
+2024-12-13 First Released
