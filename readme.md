@@ -21,4 +21,4 @@
 
 
 ## Revision History ##
-2024-12-13 First Released
+* 2024-12-13 First Released
