@@ -31,7 +31,7 @@ data "aws_ami" "ubuntu-x86" {
 module "ec2_instance_x86" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  for_each = toset(["jenk", "nexus3"])
+  for_each = toset(["admin"])
 
   name = "x86-${each.key}"
 
