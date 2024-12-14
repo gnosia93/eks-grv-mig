@@ -35,3 +35,7 @@ Command 'java' not found, but can be installed with:
 * [Add Additonal Scrape Config with Helm](https://stackoverflow.com/questions/57925786/add-scrape-configs-to-prometheus-using-helm)
 ![](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/images/prometheus-scrape-2.png)
 
+* render prometheus configuration.
+```
+helm template prometheus prometheus-community/prometheus -f values.yaml
+```
