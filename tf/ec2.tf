@@ -55,6 +55,7 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo apt install -y jq
 sudo apt install -y openjdk-17-jdk-headless
+sudo apt install -y awscli
 _DATA
 
   tags = {
