@@ -30,3 +30,4 @@ Command 'java' not found, but can be installed with:
 
 ## Metric ##
 * [Prometheus scrape with POD](https://medium.com/@hayounglim/prometheus-helm-how-to-scrape-metrics-from-multiple-pods-using-spring-actuator-08fccd0cf69e)
+* [Add Additonal Scrape Config with Helm](https://stackoverflow.com/questions/57925786/add-scrape-configs-to-prometheus-using-helm)
