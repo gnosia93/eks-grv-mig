@@ -1,6 +1,6 @@
 ## Optional Workshop ##
 
 
-* 7. CI 파이프라인 구축하기
+7. CI 파이프라인 구축하기
  
-  - [젠킨스 설치하기]()
+  - [젠킨스 설치하기](https://github.com/gnosia93/eks-grv-mig/blob/main/opt/tutorial/7.jenkins-inst.md)
