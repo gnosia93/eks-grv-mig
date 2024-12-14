@@ -38,3 +38,7 @@ Command 'java' not found, but can be installed with:
 ```
 helm template prometheus prometheus-community/prometheus -f values.yaml
 ```
+
+## Prometheus ##
+
+* [How relabeling in Prometheus works](https://grafana.com/blog/2022/03/21/how-relabeling-in-prometheus-works/#internal-labels)
