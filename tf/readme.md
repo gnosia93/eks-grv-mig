@@ -24,10 +24,11 @@ Command 'java' not found, but can be installed with:
 - sudo apt install openjdk-8-jdk-headless   # version 8u422-b05-1~22.04
 
 
-## Docker Buildx with Multi Arch ##
+## Docker Buildx /w Multi Arch ##
 * https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/
 
 
-## Metric ##
+## Metric Gathering /w Prometheus ##
+* [How to use helm](https://helm.sh/ko/docs/intro/using_helm/)
 * [Prometheus scrape with POD](https://medium.com/@hayounglim/prometheus-helm-how-to-scrape-metrics-from-multiple-pods-using-spring-actuator-08fccd0cf69e)
 * [Add Additonal Scrape Config with Helm](https://stackoverflow.com/questions/57925786/add-scrape-configs-to-prometheus-using-helm)
