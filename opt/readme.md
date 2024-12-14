@@ -10,4 +10,4 @@
 
 9. 로깅 시스템 구축하기
    - 파일 비트
-   - Fluentd 
+   - [Fluentd](https://github.com/gnosia93/eks-grv-mig/blob/main/opt/tutorial/9.fluentd.md) 
