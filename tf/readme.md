@@ -26,3 +26,7 @@ Command 'java' not found, but can be installed with:
 
 ## Docker Buildx with Multi Arch ##
 * https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/
+
+
+## Metric ##
+* [Prometheus scrape with POD](https://medium.com/@hayounglim/prometheus-helm-how-to-scrape-metrics-from-multiple-pods-using-spring-actuator-08fccd0cf69e)
