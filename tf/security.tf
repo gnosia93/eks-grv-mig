@@ -6,7 +6,7 @@ module "ec2_sg" {
   use_name_prefix = false
 
   ingress_cidr_blocks = local.all_ingress_ciders
-  ingress_rules            = ["http-8080-tcp"]
+  ingress_rules            = ["http-8080-tcp", "http-8081-tcp"]
 
   ingress_with_cidr_blocks = [
     {
