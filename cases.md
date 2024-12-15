@@ -5,6 +5,7 @@
 
 * [Python x ARM: Graviton2 실전 도입기](https://engineering.ab180.co/stories/migrating-python-application-to-arm)
 
+* [Graviton 프로세서로의 마이그레이션 결정 배경과 과정 소개](https://symplesims.github.io/aws/modernization/2024/02/29/experience-application-modernization-w-graviton.html)
 
 
 
