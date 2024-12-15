@@ -8,6 +8,13 @@ variable "your_ip_cidr" {
     default = "211.202.61.0/24"       ## 네이버에서 "내아이피" 로 검색한 후, 결과값을 CIDR 형태로 입력.
 }
 
+variable "github_webhook_ips" {
+    type = list(string)
+    default = [" ", " "]
+    description = "List of IP addresses for github web hook"
+}
+
+
 locals {
   cluster_name = "eks-grv-mig"
 }
