@@ -5,6 +5,8 @@ module "ec2_sg" {
   vpc_id      = module.vpc.vpc_id
   use_name_prefix = false
 
+  ingress_cidr_blocks = []
+
   ingress_with_cidr_blocks = [
     {
       from_port   = 8080
