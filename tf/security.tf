@@ -52,6 +52,7 @@ resource "aws_security_group" "sg_github_hooks" {
             to_port = 9090
             protocol = "tcp"
             ipv6_cidr_blocks = [ ]
+            prefix_list_ids = [ ]
             security_groups = [ ]
             self = false
         },
