@@ -39,9 +39,9 @@ module "ec2_sg" {
 # https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/latest
 
 
-resource "aws_security_group" "sg_github_hooks" {
-    name        = "sg_github_hooks"
-    description = "sg_github_hooks"
+resource "aws_security_group" "eks-grv-mig-sg-github-webhook" {
+    name        = "eks-grv-mig-sg-github-webhook"
+    description = "eks-grv-mig-sg-github-webhook"
     vpc_id = module.vpc.vpc_id
 
     ingress = [ 
@@ -60,7 +60,7 @@ resource "aws_security_group" "sg_github_hooks" {
     ]
     
     tags = {
-        Name = "sg_github_hooks"
+        Name = "eks-grv-mig-sg-github-webhook"
     }   
 }
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
