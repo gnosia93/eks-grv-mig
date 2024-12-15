@@ -13,8 +13,8 @@ module "ec2_sg" {
       from_port   = 8080
       to_port     = 9090
       protocol    = "tcp"
-#      cidr_blocks = var.your_ip_cidr
-      cidr_blocks = var.github_webhook_ips
+      cidr_blocks = var.your_ip_cidr
+#      cidr_blocks = var.github_webhook_ips
 #      prefix_list_ids = [ "pl-e1a54088" ]
     },
     {  
