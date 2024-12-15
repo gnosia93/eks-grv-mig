@@ -29,4 +29,4 @@
 ## Reference ##
 
 * https://www.eksworkshop.com/
-* https://community.amperecomputing.com/t/platform-related-jvm-settings/698
+
