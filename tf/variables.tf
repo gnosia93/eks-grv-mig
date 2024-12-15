@@ -24,7 +24,11 @@ variable "github_webhook_ips" {
 
 locals {
   cluster_name = "eks-grv-mig"
-  all_allowed_ips = setunion([var.your_ip_cidr], github_webhook_ips)
+  all_ingress_ciders = setunion([var.your_ip_cidr], github_webhook_ips)
+}
+
+output "all_ingress_ciders" {
+    value = local.all_ingress_ciders
 }
 
 # https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EB%82%B4%EC%95%84%EC%9D%B4%ED%94%BC&qdt=0&ie=utf8&query=%EB%82%B4%EC%95%84%EC%9D%B4%ED%94%BC
