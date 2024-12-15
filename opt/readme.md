@@ -13,3 +13,8 @@
    - [Fluentd](https://github.com/gnosia93/eks-grv-mig/blob/main/opt/tutorial/9.fluentd.md) 
 
 10. Nexus3 레포지토리 구축하기
+
+
+## 레페런스 ##
+
+* [깃허브 IP주소](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-githubs-ip-addresses)
