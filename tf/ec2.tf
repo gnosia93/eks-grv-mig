@@ -39,7 +39,7 @@ module "ec2_instance_x86" {
   ami                    = data.aws_ami.ubuntu-x86.id
   key_name               = var.key_pair
   monitoring             = true
-  vpc_security_group_ids = [module.ec2_sg.security_group_id, aws_security_group.sg_github_hooks.id]
+  vpc_security_group_ids = [module.ec2_sg.security_group_id, aws_security_group.eks-grv-mig-sg-github-webhook.id]
   subnet_id              = module.vpc.public_subnets[0]
   associate_public_ip_address	= "true" 
   user_data              = <<_DATA
