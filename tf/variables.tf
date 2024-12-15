@@ -22,7 +22,7 @@ variable "github_webhook_ips" {
 
 locals {
   cluster_name = "eks-grv-mig"
-  all_ingress_ciders = setunion([var.your_ip_cidr], var.github_webhook_ips)
+  all_ingress_ciders = tolist(setunion([var.your_ip_cidr], var.github_webhook_ips))
 }
 
 output "all_ingress_ciders" {
