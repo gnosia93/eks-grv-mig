@@ -21,9 +21,11 @@
     - [부하 테스트(x86 vs 그리비톤)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-ab.md)
 
 
-## Reference ##
 
-* https://www.eksworkshop.com/
 
 ## Revision History ##
 * 2024-12-13 First Released
+
+## Reference ##
+
+* https://www.eksworkshop.com/
