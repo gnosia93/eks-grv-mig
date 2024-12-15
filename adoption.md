@@ -16,4 +16,4 @@
 
 * [Quick benchmark of the AWS Graviton2 for Node.js applications](https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc)
 
-* * https://community.amperecomputing.com/t/platform-related-jvm-settings/698
+* [Platform-related JVM settings](https://community.amperecomputing.com/t/platform-related-jvm-settings/698)
