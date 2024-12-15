@@ -5,7 +5,7 @@ module "ec2_sg" {
   vpc_id      = module.vpc.vpc_id
   use_name_prefix = false
 
-  ingress_cidr_blocks = local.all_ingress_ciders
+  ingress_cidr_blocks = [local.all_ingress_ciders]
 
   ingress_with_cidr_blocks = [
     {
