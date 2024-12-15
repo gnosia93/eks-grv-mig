@@ -12,4 +12,6 @@
 
 ## Performance ##
 
-* Java Performance on ARM64 and Ampere - https://www.youtube.com/watch?v=mknjkieXRsk
+* [Java Performance on ARM64 and Ampere](https://www.youtube.com/watch?v=mknjkieXRsk)
+
+* [Quick benchmark of the AWS Graviton2 for Node.js applications](https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc)
