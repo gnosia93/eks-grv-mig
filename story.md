@@ -5,7 +5,6 @@
   * JAVA / Kotlin / Python
   * EKS 
 
-* [Python x ARM: Graviton2 실전 도입기](https://engineering.ab180.co/stories/migrating-python-application-to-arm)
 
 * [RDS / Container: Graviton 프로세서로의 마이그레이션 결정 배경과 과정 소개](https://symplesims.github.io/aws/modernization/2024/02/29/experience-application-modernization-w-graviton.html)
 
@@ -18,6 +17,10 @@
    * [카카오페이 증권 - AWS re:Invent 2023 - How to scale at speed on AWS while addressing security and compliance (GBL205)](https://www.youtube.com/watch?v=WljJ-sBQLS8&list=PLORxAVAC5fUW40w3WpbSbACrHZqhoQmG6&index=7) // 22분 ~ 
       * Java / Kotlin / Python / Golang
       * EKS / RDS / ElastiCache / Amazon OpenSearch 
+
+* [에어브리짓 - Python x ARM: Graviton2 실전 도입기](https://engineering.ab180.co/stories/migrating-python-application-to-arm)
+    * Python 
+
 
 ### Performance ###
 
