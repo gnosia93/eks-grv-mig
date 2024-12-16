@@ -11,9 +11,9 @@
    * [SK텔레콤의 AWS Graviton과 Aurora I/O-Optimized를 이용한 Amazon Aurora 비용 절감 사례](https://aws.amazon.com/ko/blogs/tech/costsaving-sktelecom-awsgraviton-auroraiooptimized/)
    * [[SK TECH SUMMIT 2023] Cloud 비용 절감 40% 달성, 고객 App을 Graviton으로 자동 전환해 주는 "Gravitonizer"](https://www.youtube.com/watch?v=3RLVVeeIAb4)
 
-* Kakaopay Insurance 
+* Kakaopay
    * [클라우드를 넘어, 보험사의 미래를 그리다: 카카오페이손해보험의 혁신](https://www.youtube.com/watch?v=rxQ1QwflZ18)
-
+   * [AWS re:Invent 2023 - How to scale at speed on AWS while addressing security and compliance (GBL205)](https://www.youtube.com/watch?v=WljJ-sBQLS8&list=PLORxAVAC5fUW40w3WpbSbACrHZqhoQmG6&index=7)
 
 ### Performance ###
 
