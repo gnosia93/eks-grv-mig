@@ -1,9 +1,3 @@
-# https://stackoverflow.com/questions/57099036/terraform-how-to-get-the-vpc-cidr-from-vpc-id
-
-data "aws_vpc" "main" {
-  id = vpc.vpc_id
-}
-
 module "ec2_sg" {
   source = "terraform-aws-modules/security-group/aws"
 
