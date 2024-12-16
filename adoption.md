@@ -8,7 +8,8 @@
 * [RDS / Container: Graviton 프로세서로의 마이그레이션 결정 배경과 과정 소개](https://symplesims.github.io/aws/modernization/2024/02/29/experience-application-modernization-w-graviton.html)
 
 * SKT
-    * https://aws.amazon.com/ko/blogs/tech/costsaving-sktelecom-awsgraviton-auroraiooptimized/
+   * https://aws.amazon.com/ko/blogs/tech/costsaving-sktelecom-awsgraviton-auroraiooptimized/
+   * [[SK TECH SUMMIT 2023] Cloud 비용 절감 40% 달성, 고객 App을 Graviton으로 자동 전환해 주는 "Gravitonizer"](https://www.youtube.com/watch?v=3RLVVeeIAb4)
 
 
 ### Performance ###
