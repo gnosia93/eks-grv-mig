@@ -26,7 +26,7 @@ Command 'java' not found, but can be installed with:
 
 ## Docker Buildx /w Multi Arch ##
 * https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/
-
+* https://dev.to/aboozar/build-docker-multi-platform-image-using-buildx-remote-builder-node-5631
 
 ## Metric Gathering /w Prometheus ##
 * [How to use helm](https://helm.sh/ko/docs/intro/using_helm/)
