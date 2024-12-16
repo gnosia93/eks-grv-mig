@@ -56,6 +56,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 sudo apt install -y jq
 sudo apt install -y openjdk-17-jdk-headless
 sudo apt install -y awscli
+sudo apt install -y apache2-utils
 _DATA
 
   tags = {
@@ -67,7 +68,7 @@ _DATA
 module "ec2_instance_arm" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  for_each = toset(["perf"])
+  for_each = toset(["jenk", "perf"])
   name = "arm-${each.key}"
 
   instance_type          = "c6g.4xlarge"
@@ -91,6 +92,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 sudo apt install -y jq
 sudo apt install -y awscli
 sudo apt install -y openjdk-17-jdk-headless
+sudo apt install -y awscli
 sudo apt install -y apache2-utils
 _DATA
 
