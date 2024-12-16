@@ -1,7 +1,7 @@
 # https://stackoverflow.com/questions/57099036/terraform-how-to-get-the-vpc-cidr-from-vpc-id
 
 data "aws_vpc" "main" {
-  id = vpc."${local.cluster_name}".id
+  id = vpc.${local.cluster_name}.id
 }
 
 module "ec2_sg" {
