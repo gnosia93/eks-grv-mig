@@ -5,7 +5,7 @@ provider "aws" {
 # https://stackoverflow.com/questions/57099036/terraform-how-to-get-the-vpc-cidr-from-vpc-id
 
 data "aws_vpc" "main" {
-  id = vpc.id
+  id = module.vpc.vpc_id
 }
 
 resource "aws_eip" "nat" {
