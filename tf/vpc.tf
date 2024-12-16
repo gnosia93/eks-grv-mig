@@ -12,8 +12,8 @@ output "vpc_id" {
   value = data.aws_vpc.main.id
 }
 
-output "vpc_cider" {
-  value = module.vpc.cidr
+output "vpc_cidr_block" {
+  value = module.vpc.vpc_cidr_block
 }
 
 
