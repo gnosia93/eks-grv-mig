@@ -9,7 +9,7 @@ data "aws_vpc" "main" {
 }
 
 output "vpc_id" {
-  value = data.aws_vpc.id
+  value = data.aws_vpc.main.id
 }
 
 resource "aws_eip" "nat" {
