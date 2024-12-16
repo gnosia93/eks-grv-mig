@@ -12,6 +12,11 @@ output "vpc_id" {
   value = data.aws_vpc.main.id
 }
 
+output "vpc_cider" {
+  value = module.vpc.cidr
+}
+
+
 resource "aws_eip" "nat" {
   count = 1
   domain = "vpc"
