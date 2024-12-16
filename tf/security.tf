@@ -1,3 +1,5 @@
+# module.vpc.vpc_cidr_block
+
 module "ec2_sg" {
   source = "terraform-aws-modules/security-group/aws"
 
@@ -9,6 +11,13 @@ module "ec2_sg" {
 #  ingress_rules       = ["http-8080-tcp"]
 
   ingress_with_cidr_blocks = [
+    {
+      from_port   = 2357
+      to_port     = 2367
+      protocol    = "tcp"
+      cidr_blocks = module.vpc.vpc_cidr_block
+      description = "docker for remote access"
+    },
     {
       from_port   = 8080
       to_port     = 9090
