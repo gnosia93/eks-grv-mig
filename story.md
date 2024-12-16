@@ -1,4 +1,4 @@
-### Adopton Story ###
+### Graviton Adopton Story ###
 
 
 * [JAVA / Kotlin / Python: 1년 동안 Workload의 절반을 ARM64로 Migration하기](https://hyperconnect.github.io/2023/07/25/migrate-half-of-workload-in-a-year.html)
@@ -15,6 +15,7 @@
    * [클라우드를 넘어, 보험사의 미래를 그리다: 카카오페이손해보험의 혁신](https://www.youtube.com/watch?v=rxQ1QwflZ18)
    * [AWS re:Invent 2023 - How to scale at speed on AWS while addressing security and compliance (GBL205)](https://www.youtube.com/watch?v=WljJ-sBQLS8&list=PLORxAVAC5fUW40w3WpbSbACrHZqhoQmG6&index=7)
       * Java / Kotlin / Python / Golang
+      * RDS / ElastiCache / Amazon OpenSearch 
 
 ### Performance ###
 
