@@ -17,7 +17,7 @@
 
 * 센드버드
   * [AWS 쓰는 센드버드, ARM 인스턴스로 갈아 탄 이유](https://zdnet.co.kr/view/?no=20210511113119)
-
+  * [AWS Summit Online Korea 2021 | 기조연설 - 김동신 대표(센드버드)](https://www.youtube.com/watch?v=1ybzxarCEls)
 
 * [에어브리짓 - Python x ARM: Graviton2 실전 도입기](https://engineering.ab180.co/stories/migrating-python-application-to-arm) 
 
