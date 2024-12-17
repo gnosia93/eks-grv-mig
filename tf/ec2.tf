@@ -57,6 +57,7 @@ sudo apt install -y jq
 sudo apt install -y openjdk-17-jdk-headless
 sudo apt install -y awscli
 sudo apt install -y apache2-utils
+sudo apt install -y net-tools
 _DATA
 
   tags = {
@@ -94,6 +95,7 @@ sudo apt install -y awscli
 sudo apt install -y openjdk-17-jdk-headless
 sudo apt install -y awscli
 sudo apt install -y apache2-utils
+sudo apt install -y net-tools
 _DATA
 
   tags = {
