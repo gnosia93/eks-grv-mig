@@ -16,8 +16,8 @@
 
 5. [어플리케이션 마이그레이션 하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.app-mig.md)
 
-    - ALB Weight 기반 라우팅 활용하기
-    - Istio 버추얼 호스트 라우팅 룰 활용하기      
+    - ALB 가중치 기반 라우팅 활용하기
+    - Istio 버추얼 서비스 활용하기      
   
 6. 성능 측정하기
    
