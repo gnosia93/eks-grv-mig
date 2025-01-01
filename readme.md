@@ -15,6 +15,8 @@
 5. [Graviton 노드 추가하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/4.graviton-nodegroup.md)
 
 6. [어플리케이션 마이그레이션 하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5.app-mig.md)
+
+    - ALB Weight 기반 라우팅 설정    
   
 7. 성능 측정하기
    
