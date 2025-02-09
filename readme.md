@@ -34,4 +34,4 @@
 ## Reference ##
 
 * https://www.eksworkshop.com/
-* https://catalog.us-east-1.prod.workshops.aws/workshops/dcab7555-32fc-42d2-97e5-2b7a35cd008f/en-US/cicd/jenkins
+
