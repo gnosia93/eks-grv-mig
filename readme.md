@@ -25,7 +25,7 @@
 
 7. 네이티브 멀티 아키텍처 이미지 만들기
     - [Kaniko Build With Jenkins](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-kaniko.md)
-    - [Docker Remote Native Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-remote.md)
+    - [Docker Remote Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-remote.md)
 
 
 
