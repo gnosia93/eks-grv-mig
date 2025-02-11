@@ -6,7 +6,7 @@
 
 1. [EKS 클러스터 생성하기(eks provision)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/1.infra.md)
 
-2. [Multi 아키텍처 이미지 만들기](multi architecture image build)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image.md)
+2. [멀티 아키텍처 이미지 만들기(multi architecture image build)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image.md)
 
 3. [X86 노드에서 어플리케이션 실행하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/3.x86-app.md)
        
@@ -23,7 +23,7 @@
     - [대시보드 설정](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-mon.md)
     - [부하 테스트(x86 vs 그라비톤)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-ab.md)
 
-7. Native Multi 아키텍처 이미지 만들기
+7. 네이티브 멀티 아키텍처 이미지 만들기
     - [Kaniko Build With Jenkins](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-kaniko.md)
     - [Remote Native Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-remote.md)
 
