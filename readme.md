@@ -23,10 +23,6 @@
     - [대시보드 설정](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-mon.md)
     - [부하 테스트(x86 vs 그라비톤)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-ab.md)
 
-7. 네이티브 멀티 아키텍처 이미지 만들기
-    - [Kaniko Build With Jenkins](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-kaniko.md)
-    - [Docker Remote Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-remote.md)
-
 
 
 ## Revision History ##
