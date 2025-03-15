@@ -1,5 +1,10 @@
 ## Optional Workshop ##
 
+7. 네이티브 멀티 아키텍처 이미지 만들기
+    - [Kaniko Build With Jenkins](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-kaniko.md)
+    - [Docker Remote Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-image-remote.md)
+
+
 7. CI 파이프라인 구축하기
    - [젠킨스 설치하기](https://github.com/gnosia93/eks-grv-mig/blob/main/opt/tutorial/7.jenkins-inst.md)
    - [파이프라인 구축하기]
