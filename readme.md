@@ -10,6 +10,7 @@
        
    - [AWS Codepipeline Native Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-codepipe.md)
    - [Jenkins CI Pipline Native Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-jenkins.md)
+   - [Gitlab Multi Architecture Build](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/2.multi-arch-gitlab.md)
 
 3. [X86 노드에서 어플리케이션 실행하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/3.x86-app.md)
        
