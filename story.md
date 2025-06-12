@@ -1,9 +1,10 @@
 ### Graviton Adopton Story ###
 
-
 * [Hyperconnect - 1년 동안 Workload의 절반을 ARM64로 Migration하기](https://hyperconnect.github.io/2023/07/25/migrate-half-of-workload-in-a-year.html)
   * Java / Kotlin / Python
   * EKS 
+  * [AWS 서밋 - 하이퍼커넥트의 AWS Graviton 이전을 위한 거대한 도전과 여정](https://www.youtube.com/watch?v=AE1QHyFnZsw)
+
 
 * SKT
    * [SK텔레콤의 AWS Graviton과 Aurora I/O-Optimized를 이용한 Amazon Aurora 비용 절감 사례](https://aws.amazon.com/ko/blogs/tech/costsaving-sktelecom-awsgraviton-auroraiooptimized/)
