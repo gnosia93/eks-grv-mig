@@ -1,1 +1,1 @@
-* https://somaz.tistory.com/201
+* GitLab Runner - https://somaz.tistory.com/201
