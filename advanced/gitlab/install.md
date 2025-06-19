@@ -22,4 +22,4 @@ sudo cat /etc/gitlab/initial_root_password
 
 ## 참고자료 ##
 
-* https://about.gitlab.com/install/#ubuntu 
+* https://zoetechlog.tistory.com/160
