@@ -1,6 +1,6 @@
 for Java JVM
   
-## LSE ##
+## [LSE](https://learn.arm.com/learning-paths/servers-and-cloud-computing/lse/intro/) ##
 
 To determine if your JVM supports ARM's LSE (Large System Extensions) instructions, you can check if the JVM was compiled with the necessary flags and if the target processor supports it. You can verify this by examining the JVM's command-line arguments or by inspecting the compiled code for LSE instructions. If using OpenJDK, you can also enable the UseLSE flag in the JVM options and use tools like ldd to check dynamic linking. 
 Here's a more detailed explanation:
