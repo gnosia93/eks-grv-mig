@@ -114,14 +114,14 @@ OpenJDK 64-Bit Server VM Corretto-17.0.8.7.1 (build 17.0.8+7-LTS, mixed mode, sh
 ```
 
 ## [JVM Perf Tunning](https://github.com/aws/aws-graviton-getting-started/blob/main/java.md) ##
-#### Java JVM Options ####
+### Java JVM Options ###
 There are numerous options that control the JVM and may lead to better performance.
 
 * Flags -XX:-TieredCompilation -XX:ReservedCodeCacheSize=64M -XX:InitialCodeCacheSize=64M have shown large (1.5x) improvements in some Java workloads. Corretto 17 needs two additional flags: -XX:CICompilerCount=2 -XX:CompilationMode=high-only. ReservedCodeCacheSize/InitialCodeCacheSize should be equal and can be in range: 64M...127M. The JIT compiler stores generated code in the code cache. The flags change the size of the code cache from the default 240M to the smaller one. The smaller code cache may help CPU to improve the caching and prediction of jitted code. The flags disable the tiered compilation to make the JIT compiler able to use the smaller code cache. These are helpful on some workloads but can hurt on others so testing with and without them is essential.
 
 * Crypto algorithm AES/GCM used by TLS has been optimized for Graviton. On Graviton2 GCM encrypt/decrypt performance improves by 3.5x to 5x. The optimization is enabled by default in Corretto and OpenJDK 18 and later. The optimization has been backported to Corretto and OpenJDK 11 and 17 and can be enabled with the flags -XX:+UnlockDiagnosticVMOptions -XX:+UseAESCTRIntrinsics. As an alternative, you can use Amazon Corretto Crypto Provider JNI libraries.
 
-#### Looking for x86 shared-objects in JARs ####
+### Looking for x86 shared-objects in JARs ###
 Java JARs can include shared-objects that are architecture specific. Some Java libraries check if these shared objects are found and if they are they use a JNI to call to the native library instead of relying on a generic Java implementation of the function. While the code might work, without the JNI the performance can suffer.
 
 A quick way to check if a JAR contains such shared objects is to simply unzip it and check if any of the resulting files are shared-objects and if an aarch64 (arm64) shared-object is missing:
@@ -131,7 +131,7 @@ $ find . -name "*.so" -exec file {} \;
 
 For each x86-64 ELF file, check there is a corresponding aarch64 ELF file in the binaries. With some common packages (e.g. commons-crypto) we've seen that even though a JAR can be built supporting Arm manually, artifact repositories such as Maven don't have updated versions. To see if a certain artifact version may have Arm support, consult our [Common JARs with native code Table](https://github.com/aws/aws-graviton-getting-started/blob/main/CommonNativeJarsTable.md). Feel free to open an issue in this GitHub repo or contact us at ec2-arm-dev-feedback@amazon.com for advice on getting Arm support for a required Jar.
 
-#### Remove Anti-patterns ####
+### Remove Anti-patterns ###
 Anti-patterns can affect the performance on any instance family, but the level of impact can be different. Below is a list of anti-patterns we have found to be particularly impactful on Graviton:
 
 Excessive exceptions: Throwing exceptions and generating stack-traces has been observed to cost up to 2x more on Graviton platforms compared to x86. We recommend not to use Java exceptions as control flow, and to remove exceptions when they appear in the hot-code path. Identifying hot exceptions can be done using function profilers like Aperf, Async-profiler, or Linux perf. Overhead can be mitigated some by using the **-XX:+OmitStackTraceInFastThrow** JVM flag to allow the Java runtime to optimize the exception flow for some hot paths. The best solution is to avoid the exceptions as much as possible.
