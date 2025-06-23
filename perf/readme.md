@@ -112,3 +112,11 @@ openjdk version "17.0.8" 2023-07-18 LTS
 OpenJDK Runtime Environment Corretto-17.0.8.7.1 (build 17.0.8+7-LTS)
 OpenJDK 64-Bit Server VM Corretto-17.0.8.7.1 (build 17.0.8+7-LTS, mixed mode, sharing)
 ```
+
+## [JVM Perf Tunning](https://github.com/aws/aws-graviton-getting-started/blob/main/java.md) ##
+Java JVM Options
+There are numerous options that control the JVM and may lead to better performance.
+
+Flags -XX:-TieredCompilation -XX:ReservedCodeCacheSize=64M -XX:InitialCodeCacheSize=64M have shown large (1.5x) improvements in some Java workloads. Corretto 17 needs two additional flags: -XX:CICompilerCount=2 -XX:CompilationMode=high-only. ReservedCodeCacheSize/InitialCodeCacheSize should be equal and can be in range: 64M...127M. The JIT compiler stores generated code in the code cache. The flags change the size of the code cache from the default 240M to the smaller one. The smaller code cache may help CPU to improve the caching and prediction of jitted code. The flags disable the tiered compilation to make the JIT compiler able to use the smaller code cache. These are helpful on some workloads but can hurt on others so testing with and without them is essential.
+
+Crypto algorithm AES/GCM used by TLS has been optimized for Graviton. On Graviton2 GCM encrypt/decrypt performance improves by 3.5x to 5x. The optimization is enabled by default in Corretto and OpenJDK 18 and later. The optimization has been backported to Corretto and OpenJDK 11 and 17 and can be enabled with the flags -XX:+UnlockDiagnosticVMOptions -XX:+UseAESCTRIntrinsics. As an alternative, you can use Amazon Corretto Crypto Provider JNI libraries.
