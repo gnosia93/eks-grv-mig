@@ -129,5 +129,5 @@ A quick way to check if a JAR contains such shared objects is to simply unzip it
 $ unzip foo.jar
 $ find . -name "*.so" -exec file {} \;
 
-For each x86-64 ELF file, check there is a corresponding aarch64 ELF file in the binaries. With some common packages (e.g. commons-crypto) we've seen that even though a JAR can be built supporting Arm manually, artifact repositories such as Maven don't have updated versions. To see if a certain artifact version may have Arm support, consult our Common JARs with native code Table. Feel free to open an issue in this GitHub repo or contact us at ec2-arm-dev-feedback@amazon.com for advice on getting Arm support for a required Jar.
+For each x86-64 ELF file, check there is a corresponding aarch64 ELF file in the binaries. With some common packages (e.g. commons-crypto) we've seen that even though a JAR can be built supporting Arm manually, artifact repositories such as Maven don't have updated versions. To see if a certain artifact version may have Arm support, consult our [Common JARs with native code Table](https://github.com/aws/aws-graviton-getting-started/blob/main/CommonNativeJarsTable.md). Feel free to open an issue in this GitHub repo or contact us at ec2-arm-dev-feedback@amazon.com for advice on getting Arm support for a required Jar.
 
