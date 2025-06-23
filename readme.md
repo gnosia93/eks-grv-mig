@@ -38,4 +38,5 @@
 ## Reference ##
 
 * https://www.eksworkshop.com/
+* https://github.com/aws-ia/terraform-aws-eks-blueprints
 * https://workshops.aws/categories/Containers?tag=Graviton
