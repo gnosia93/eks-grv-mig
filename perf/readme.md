@@ -26,7 +26,7 @@ By following these steps, you can determine if your JVM is utilizing ARM's Large
 
 ## JVM Option Check ##
 
-below output is mac book JVM flags, which mean if JVM supports native instructions  
+below output is mac book JVM flags, which mean if JVM supports native instructions and some JVM spedific optimizations  
 ```
 $ java -XX:+PrintFlagsFinal -version | grep Use
 
