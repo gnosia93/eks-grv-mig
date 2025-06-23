@@ -1,5 +1,9 @@
 ### Graviton Adopton Story ###
 
+* 삼성전자
+ * [가격은 저렴, 성능은 최대로! 확 달라진 Amazon EC2 알아보기 - 박연경, AWS / 김현철, 삼성전자 :: AWS Summit Seoul 2023](https://www.youtube.com/watch?v=kByUnvQE_U0)
+
+
 * [Hyperconnect - 1년 동안 Workload의 절반을 ARM64로 Migration하기](https://hyperconnect.github.io/2023/07/25/migrate-half-of-workload-in-a-year.html)
   * Java / Kotlin / Python
   * EKS 
@@ -20,6 +24,8 @@
   * [AWS 쓰는 센드버드, ARM 인스턴스로 갈아 탄 이유](https://zdnet.co.kr/view/?no=20210511113119)
   * [AWS Summit Online Korea 2021 | 기조연설 - 김동신 대표(센드버드)](https://www.youtube.com/watch?v=1ybzxarCEls) // 5분 50초 ~
      * Elasticache
+
+
 
 
 * [FLO](https://www.epnc.co.kr/news/articleView.html?idxno=228374)
