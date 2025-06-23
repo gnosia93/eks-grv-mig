@@ -26,7 +26,7 @@ By following these steps, you can determine if your JVM is utilizing ARM's Large
 
 ## JVM Option Check ##
 
-below output is mac book JVM flags 
+below output is mac book JVM flags, which mean if JVM supports native instructions  
 ```
 $ java -XX:+PrintFlagsFinal -version | grep Use
 
@@ -130,4 +130,9 @@ $ unzip foo.jar
 $ find . -name "*.so" -exec file {} \;
 
 For each x86-64 ELF file, check there is a corresponding aarch64 ELF file in the binaries. With some common packages (e.g. commons-crypto) we've seen that even though a JAR can be built supporting Arm manually, artifact repositories such as Maven don't have updated versions. To see if a certain artifact version may have Arm support, consult our [Common JARs with native code Table](https://github.com/aws/aws-graviton-getting-started/blob/main/CommonNativeJarsTable.md). Feel free to open an issue in this GitHub repo or contact us at ec2-arm-dev-feedback@amazon.com for advice on getting Arm support for a required Jar.
+
+#### Remove Anti-patterns ####
+Anti-patterns can affect the performance on any instance family, but the level of impact can be different. Below is a list of anti-patterns we have found to be particularly impactful on Graviton:
+
+Excessive exceptions: Throwing exceptions and generating stack-traces has been observed to cost up to 2x more on Graviton platforms compared to x86. We recommend not to use Java exceptions as control flow, and to remove exceptions when they appear in the hot-code path. Identifying hot exceptions can be done using function profilers like Aperf, Async-profiler, or Linux perf. Overhead can be mitigated some by using the -XX:+OmitStackTraceInFastThrow JVM flag to allow the Java runtime to optimize the exception flow for some hot paths. The best solution is to avoid the exceptions as much as possible.
 
