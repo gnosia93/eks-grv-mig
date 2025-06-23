@@ -136,3 +136,6 @@ Anti-patterns can affect the performance on any instance family, but the level o
 
 Excessive exceptions: Throwing exceptions and generating stack-traces has been observed to cost up to 2x more on Graviton platforms compared to x86. We recommend not to use Java exceptions as control flow, and to remove exceptions when they appear in the hot-code path. Identifying hot exceptions can be done using function profilers like Aperf, Async-profiler, or Linux perf. Overhead can be mitigated some by using the **-XX:+OmitStackTraceInFastThrow** JVM flag to allow the Java runtime to optimize the exception flow for some hot paths. The best solution is to avoid the exceptions as much as possible.
 
+----
+
+* [SVC Deep Dive](https://www.stonybrook.edu/commcms/ookami/support/_docs/5%20-%20Advanced%20SVE.pdf)
