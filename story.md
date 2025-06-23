@@ -2,6 +2,7 @@
 
 * [삼성전자 - 가격은 저렴, 성능은 최대로! 확 달라진 Amazon EC2 알아보기 - 박연경, AWS / 김현철, 삼성전자 :: AWS Summit Seoul 2023](https://www.youtube.com/watch?v=kByUnvQE_U0)  // 26:00 ~
   * Java8 / Spring / Datadog / Github 
+  * Alpine Linux / OpenJDK - 최신버전 업데이트, 자바 마이너 버전에 대한 지원이 빠르다. 
 
 
 * [Hyperconnect - 1년 동안 Workload의 절반을 ARM64로 Migration하기](https://hyperconnect.github.io/2023/07/25/migrate-half-of-workload-in-a-year.html)
