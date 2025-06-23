@@ -1,5 +1,5 @@
-* [Improving Java performance on Neoverse N1 systems](https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/java-performance-on-neoverse-n1)
 
+  
 ## LSE ##
 
 To determine if your JVM supports ARM's LSE (Large System Extensions) instructions, you can check if the JVM was compiled with the necessary flags and if the target processor supports it. You can verify this by examining the JVM's command-line arguments or by inspecting the compiled code for LSE instructions. If using OpenJDK, you can also enable the UseLSE flag in the JVM options and use tools like ldd to check dynamic linking. 
@@ -19,3 +19,6 @@ For other ARM processors, consult the processor's technical reference manual to 
 5. Consider the -moutline-atomics flag (for portability):
 If you need the JVM to run on a wider range of ARMv8 systems, including those that may not have LSE support, compile with the -moutline-atomics flag. This ensures that the JVM uses a fallback mechanism for atomic operations when LSE is not available. 
 By following these steps, you can determine if your JVM is utilizing ARM's Large System Extensions for improved performance on ARM processors. 
+
+* [Improving Java performance on Neoverse N1 systems](https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/java-performance-on-neoverse-n1)
+* [https://amperecomputing.com/tuning-guides/unlocking-java-performance-tuning-guide](https://amperecomputing.com/tuning-guides/unlocking-java-performance-tuning-guide)
