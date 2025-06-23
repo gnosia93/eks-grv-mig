@@ -21,8 +21,10 @@
 
     - [ALB 가중치 기반 라우팅 활용하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5-1.alb-weight-routing.md)
     - [Istio 버추얼 서비스 활용하기](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/5-2.istio-routing.md)      
+
+6. Karpenter - https://www.nops.io/blog/karpenter-vs-cluster-autoscaler-vs-nks/
   
-6. 성능 측정하기
+7. 성능 측정하기
    
     - [프로메테우스 / 그라파나 설치](https://github.com/gnosia93/eks-grv-adp/blob/main/tutorial/6.perf-prometheus.md)
     - [대시보드 설정](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-mon.md)
