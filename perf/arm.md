@@ -25,3 +25,7 @@ Performance benchmarks generally show that .NET code execution performance scale
 
 Lock Contention Reduction:
 Techniques for reducing lock contention in any environment, including both x86 and ARM, include minimizing the time spent under a lock, reducing the scope of the lock, and using more efficient locking mechanisms. 
+
+## lock free programming ##
+
+* https://www.baeldung.com/lock-free-programming
