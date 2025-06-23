@@ -49,3 +49,8 @@ Compilers for ARM need to work harder to translate high-level code into efficien
 While some older benchmarks might have shown differences, modern .NET implementations on ARM, especially with targeted optimizations, show similar performance to x86 and x64 in many scenarios according to Learn Microsoft.
 The .NET team has made significant efforts to ensure that .NET code execution on ARM scales similarly to native C++ code. 
 In essence, the performance difference between CLR on ARM and x86 is not always significant and can be mitigated through compiler and runtime optimizations. The architectural distinctions and the way the CLR handles memory models are contributing factors, but the .NET team has worked to minimize the performance impact on ARM
+
+
+## Perf Tunning ##
+
+* https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/if-conversion-within-dotnet-part-1
