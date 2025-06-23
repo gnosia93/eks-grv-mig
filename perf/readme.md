@@ -26,8 +26,10 @@ By following these steps, you can determine if your JVM is utilizing ARM's Large
 
 ## JVM Option Check ##
 
-% java -XX:+PrintFlagsFinal -version | grep Use
+below output is mac book JVM flags 
 ```
+$ java -XX:+PrintFlagsFinal -version | grep Use
+
      bool AllowUserSignalHandlers                  = false                                     {product} {default}
      bool G1UseAdaptiveConcRefinement              = true                                      {product} {default}
      bool G1UseAdaptiveIHOP                        = true                                      {product} {default}
