@@ -54,3 +54,5 @@ In essence, the performance difference between CLR on ARM and x86 is not always 
 ## Perf Tunning ##
 
 * https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/if-conversion-within-dotnet-part-1
+* https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/if-conversion-within-dotnet-part-2
+* https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/if-conversion-within-dotnet-part-3
