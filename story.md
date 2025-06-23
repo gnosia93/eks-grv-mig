@@ -1,7 +1,7 @@
 ### Graviton Adopton Story ###
 
 * [삼성전자 - 가격은 저렴, 성능은 최대로! 확 달라진 Amazon EC2 알아보기 - 박연경, AWS / 김현철, 삼성전자 :: AWS Summit Seoul 2023](https://www.youtube.com/watch?v=kByUnvQE_U0)  // 26:00 ~
-  * Java8/Spring/Datadog/Github 
+  * Java8 / Spring / Datadog / Github 
 
 
 * [Hyperconnect - 1년 동안 Workload의 절반을 ARM64로 Migration하기](https://hyperconnect.github.io/2023/07/25/migrate-half-of-workload-in-a-year.html)
