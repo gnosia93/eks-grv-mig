@@ -26,20 +26,34 @@ Node.js는 기본적으로 싱글 스레드 기반이지만, libuv와 이벤트 
 
 
 Node.js performance on ARM architecture is a relevant topic, especially with the rise of ARM-based servers and devices like AWS Graviton instances and Apple M-series chips.
+
 General Performance Characteristics:
+
 Efficiency:
 ARM processors are known for their power efficiency, which can translate to lower operational costs in cloud environments or extended battery life in embedded systems.
+
 Performance Variability:
 Performance can vary significantly between different ARM implementations and specific workloads. Factors like core count, clock speed, cache size, and memory bandwidth all play a role.
+
 Workload Suitability:
 Node.js, with its single-threaded event loop and non-blocking I/O model, can be well-suited for I/O-bound workloads on ARM. CPU-intensive tasks might see less benefit or even performance regressions compared to highly optimized x86 architectures, especially if V8's instruction scheduling isn't fully optimized for the specific ARM core.
+
 Specific Considerations for Node.js on ARM:
+
 Native ARM Builds:
 Ensure you are running a native ARM build of Node.js, not an emulated version (e.g., via Rosetta 2 on Apple Silicon), to maximize performance.
+
 V8 Optimization:
 The V8 JavaScript engine, which powers Node.js, continuously improves its ARM support and optimizations. Newer versions of Node.js typically include these enhancements.
+
 Benchmarking:
 Conduct thorough benchmarking with your specific Node.js application and workload on the target ARM hardware to accurately assess performance and identify potential bottlenecks. Tools like autocannon or wrk can be used for this purpose.
+
 Resource Utilization:
 Monitor CPU and memory usage to ensure efficient resource allocation and identify any potential performance issues or bottlenecks related to your application's code or dependencies.
+
 In summary, Node.js can perform well on ARM, particularly for I/O-bound applications and in environments where power efficiency is a priority. However, careful consideration of the specific ARM hardware, Node.js version, and application workload is necessary to achieve optimal performance.
+
+
+* https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc
+
