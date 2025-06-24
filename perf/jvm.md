@@ -140,3 +140,7 @@ Excessive exceptions: Throwing exceptions and generating stack-traces has been o
 
 * [Improving performance with SIMD intrinsics in three use cases](https://stackoverflow.blog/2020/07/08/improving-performance-with-simd-intrinsics-in-three-use-cases/)
 * [SVC Deep Dive](https://www.stonybrook.edu/commcms/ookami/support/_docs/5%20-%20Advanced%20SVE.pdf)
+
+## Profiling ##
+
+* https://www.baeldung.com/java-profilers
