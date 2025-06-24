@@ -1,47 +1,46 @@
-## CPU-intensive workloads ##
+## x86 is more efficient for CPU-intensive workloads ##
 
 For CPU-intensive workloads, x86 processors generally outperform ARM processors, especially in single-threaded tasks and when raw performance is prioritized. However, ARM processors offer better power efficiency and can be competitive in multithreaded scenarios and when optimized for the architecture. 
 Here's a more detailed breakdown:
 
 ### x86 Advantages: ###
-Raw Performance:
+* Raw Performance:
 x86 processors, particularly those from Intel and AMD, are designed for high performance and are often favored for demanding applications like video editing, 3D modeling, and high-end gaming. 
 
-Instruction Set:
+* Instruction Set:
 x86 utilizes a complex instruction set computing (CISC) architecture, allowing for powerful instructions that can perform complex operations in fewer steps. 
 
-Software Compatibility:
+* Software Compatibility:
 x86 has a vast library of software and operating systems developed for it, ensuring broad compatibility and ease of use. 
 
-Scalability:
+* Scalability:
 x86 processors scale well to higher clock speeds and power consumption, allowing for increased performance in desktop and server environments. 
 
 ### ARM Advantages: ###
-Power Efficiency:
+* Power Efficiency:
 ARM processors are known for their low power consumption and are well-suited for mobile devices, embedded systems, and situations where energy efficiency is crucial. 
 
-Cost-Effectiveness:
+* Cost-Effectiveness:
 ARM processors are generally more affordable than comparable x86 processors, making them attractive for cost-sensitive applications. 
 
-SoC Integration:
+* SoC Integration:
 ARM processors are often integrated into System-on-Chip (SoC) designs, offering a compact and power-efficient solution. 
 
-Emerging in Servers:
+* Emerging in Servers:
 ARM processors are gaining traction in server environments, particularly with the development of chips like the Ampere Altra, which offers competitive performance and energy efficiency for cloud computing. 
 
 ### Workload Considerations: ###
-Single-threaded Performance:
+* Single-threaded Performance:
 x86 generally excels in single-threaded tasks, such as running older software or specific applications that haven't been optimized for ARM. 
 
-Multithreaded Performance:
+* Multithreaded Performance:
 ARM processors can be competitive in multithreaded workloads, especially when optimized for the architecture. 
 
-Emulation:
+* Emulation:
 Running x86 applications on ARM through emulation can result in performance overhead, though this is becoming less of an issue as more software is natively compiled for ARM. 
 
 ### In conclusion: ###
 The choice between x86 and ARM for CPU-intensive workloads depends on the specific application and its requirements. x86 offers raw performance and a wide range of compatible software, while ARM provides power efficiency and cost-effectiveness. As ARM continues to evolve and improve, its relevance in server and other performance-focused applications is likely to increase. 
-
 
 
 * Why I think ARM servers will always be slow - https://semiwiki.com/forum/threads/why-i-think-arm-servers-will-always-be-slow.11163/
