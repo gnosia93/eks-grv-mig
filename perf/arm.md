@@ -43,12 +43,6 @@ Running x86 applications on ARM through emulation can result in performance over
 The choice between x86 and ARM for CPU-intensive workloads depends on the specific application and its requirements. x86 offers raw performance and a wide range of compatible software, while ARM provides power efficiency and cost-effectiveness. As ARM continues to evolve and improve, its relevance in server and other performance-focused applications is likely to increase. 
 
 
-* Why I think ARM servers will always be slow - https://semiwiki.com/forum/threads/why-i-think-arm-servers-will-always-be-slow.11163/
-* ARM vs. x86: Differences & similarities of both architectures - https://emteria.com/blog/arm-vs-x86
-* Arm64 performance and Arm memory model (barriers) - https://community.amperecomputing.com/t/arm64-performance-and-arm-memory-model-barriers/891
-  * https://yoojin99.github.io/cs/Memory-Barrier/
-  * https://www.infoq.com/articles/memory_barriers_jvm_concurrency/
-
 
 ## .NET CLR shows more lock contention on ARM than x86 ##
 
@@ -74,3 +68,12 @@ Techniques for reducing lock contention in any environment, including both x86 a
 ## lock free programming ##
 
 * https://www.baeldung.com/lock-free-programming
+
+
+## Additional ##
+
+* Why I think ARM servers will always be slow - https://semiwiki.com/forum/threads/why-i-think-arm-servers-will-always-be-slow.11163/
+* ARM vs. x86: Differences & similarities of both architectures - https://emteria.com/blog/arm-vs-x86
+* Arm64 performance and Arm memory model (barriers) - https://community.amperecomputing.com/t/arm64-performance-and-arm-memory-model-barriers/891
+  * https://yoojin99.github.io/cs/Memory-Barrier/
+  * https://www.infoq.com/articles/memory_barriers_jvm_concurrency/
