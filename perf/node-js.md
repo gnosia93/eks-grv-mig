@@ -56,4 +56,5 @@ In summary, Node.js can perform well on ARM, particularly for I/O-bound applicat
 
 
 * https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc
+* https://dzone.com/articles/nodejs-performance-tuning-advanced-techniques
 
