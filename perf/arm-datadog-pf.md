@@ -1,6 +1,6 @@
 * [Continuous Node.js Profiling](https://www.datadoghq.com/dg/apm/profiler/nodejs-continuous-profiler/?utm_source=google&utm_medium=paid-search&utm_campaign=dg-profiler-apac-nodejs&utm_keyword=%2Bprofile%20%2Bnodejs&utm_matchtype=p&igaag=171692363888&igaat=&igacm=15419171172&igacr=708880139913&igakw=%2Bprofile%20%2Bnodejs&igamt=p&igant=g&utm_campaignid=15419171172&utm_adgroupid=171692363888&gad_source=1&gad_campaignid=15419171172&gbraid=0AAAAADFY9Nlr9ntJXY3BnnnhCuJEcXhU0&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJQsBDkc-tDtVURrXtcuxiXIp7mBq6xbNCK8MKaFGposf0O5bXjbuOxoCwVAQAvD_BwE)
 
-![](https://github.com/gnosia93/eks-on-arm/blob/main/perf/imagaes/datadog-pf.png)
+![](https://github.com/gnosia93/eks-on-arm/blob/main/perf/imagaes/datadog-pf.-2.png)
 
 Datadog's Continuous Profiler can be used to profile ARM-based applications. The profiler is designed to run continuously in production with minimal overhead, providing insights into code performance, including CPU usage, memory allocation, and method execution times. This allows developers to identify performance bottlenecks and optimize their applications. 
 Here's how Datadog's Continuous Profiler can be used for ARM applications:
