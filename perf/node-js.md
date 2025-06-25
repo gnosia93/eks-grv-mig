@@ -55,6 +55,20 @@ Monitor CPU and memory usage to ensure efficient resource allocation and identif
 In summary, Node.js can perform well on ARM, particularly for I/O-bound applications and in environments where power efficiency is a priority. However, careful consideration of the specific ARM hardware, Node.js version, and application workload is necessary to achieve optimal performance.
 
 
+
+## Node addon / native module ##
+
+Node.js supports the use of native C and C++ code through dynamically linked shared objects, commonly referred to as addons or native modules. These modules are compiled C/C++ code that can be loaded and interacted with from within your JavaScript application.
+
+This capability allows developers to:
+Leverage existing C/C++ libraries: Integrate high-performance or specialized functionalities written in C/C++ directly into Node.js applications.
+Optimize performance-critical sections: Handle computationally intensive tasks or low-level operations more efficiently than pure JavaScript.
+Interact with system resources: Access operating system-specific functionalities or hardware directly.  
+Tools like node-gyp are typically used to compile these native modules, and the Node-API (N-API) provides a stable API for building these addons, ensuring compatibility across different Node.js versions.
+
+
+## Performance Tunning ##
+
 * https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc
 * https://dzone.com/articles/nodejs-performance-tuning-advanced-techniques
 
