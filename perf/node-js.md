@@ -101,11 +101,13 @@ New Relic, Keymetrics, N|Solid 와 같은 외부 모니터링 및 프로파일�
 예시:
 코드
 
+```
 # Node.js 기본 프로파일러 사용 예시
 node --prof server.js  # 서버 실행 시 프로파일링 시작
 # ... 서버 작업 수행 ...
 # Ctrl + C 로 프로파일링 종료
 node --prof-process isolate-0x123456789-v8.log > processed.txt # 로그 분석
+```
 
 참고:
 node --help 명령어를 사용하여 Node.js 커맨드 라인 옵션을 자세히 확인 할 수 있습니다. 
@@ -113,6 +115,7 @@ chrome://inspect 를 사용하여 Chrome DevTools를 통해 프로파일링을 �
 비효율적인 코드를 찾았다면, 코드를 개선하거나 비동기 처리 방식으로 변경하여 성능을 향상시킬 수 있습니다. 
 
 
+* [Node CPU 점유율 최적화 경험기](https://hyperconnect.github.io/2020/02/11/Node-cpu-debug.html)
 
 
 ## Performance Tunning ##
