@@ -35,3 +35,4 @@ You can then use Datadog's dashboards and tools to analyze this data and identif
 By leveraging Datadog's Continuous Profiler, developers can gain valuable insights into their ARM-based application's performance and optimize it for better efficiency and user experience. 
 
 * https://docs.datadoghq.com/ko/profiler/
+* [Datadog on Profiling in Production](https://www.youtube.com/watch?v=5ffJ8Zzg4YY)
