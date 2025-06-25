@@ -56,7 +56,7 @@ In summary, Node.js can perform well on ARM, particularly for I/O-bound applicat
 
 
 
-## Node addon / native module ##
+## [Node addon / native module](https://nodejs.org/api/addons.html) ##
 
 Node.js supports the use of native C and C++ code through dynamically linked shared objects, commonly referred to as addons or native modules. These modules are compiled C/C++ code that can be loaded and interacted with from within your JavaScript application.
 
