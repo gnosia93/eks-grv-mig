@@ -72,7 +72,7 @@ Tools like node-gyp are typically used to compile these native modules, and the 
 
 ## Performance Tunning ##
 
-* https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc
+* [Quick benchmark of the AWS Graviton2 for Node.js applications](https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc)
 * https://nodejs.org/en/learn/getting-started/profiling
-* https://dzone.com/articles/nodejs-performance-tuning-advanced-techniques
+* [Node.js Performance Tuning: Advanced Techniques to Follow](https://dzone.com/articles/nodejs-performance-tuning-advanced-techniques)
 
