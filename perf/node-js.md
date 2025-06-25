@@ -70,6 +70,51 @@ Interact with system resources: Access operating system-specific functionalities
 Tools like node-gyp are typically used to compile these native modules, and the Node-API (N-API) provides a stable API for building these addons, ensuring compatibility across different Node.js versions.
 
 
+## Profling ##
+
+Node.js 성능 프로파일링은 애플리케이션의 병목 현상을 찾아 성능을 최적화하는 과정입니다. Node.js 자체적으로 제공하는 프로파일링 도구와 외부 도구를 사용하여 CPU 사용량, 메모리 사용량, I/O 작업 등을 분석할 수 있습니다. 
+
+Node.js 프로파일링 방법:
+
+1. Node.js 기본 프로파일러 사용:
+--prof 옵션을 사용하여 Node.js 애플리케이션을 실행하면 프로파일링 로그 파일(예: isolate-0x123456789-v8.log)이 생성됩니다. 
+생성된 로그 파일을 분석하여 CPU 사용량이 높은 함수나 코드 영역을 파악할 수 있습니다. 
+--inspect 옵션과 함께 사용하면 크롬 개발자 도구에서 자세한 프로파일링 정보를 확인할 수 있습니다. 
+perf 명령어를 사용하여 시스템 수준의 프로파일링을 수행할 수도 있습니다. 
+
+2. clinic.js 사용:
+clinic.js는 Node.js 애플리케이션의 성능 문제를 진단하고 해결하는 데 유용한 도구입니다. 
+clinic doctor 명령어를 사용하여 실시간으로 성능 데이터를 수집하고 분석할 수 있습니다. 
+clinic flame 명령어를 사용하여 CPU 프로파일링 결과를 시각화할 수 있습니다. 
+clinic bubbleprof 명령어를 사용하여 메모리 누수를 추적할 수 있습니다. 
+
+3. 외부 프로파일링 도구 사용:
+New Relic, Keymetrics, N|Solid 와 같은 외부 모니터링 및 프로파일링 도구를 사용하여 Node.js 애플리케이션을 모니터링하고 프로파일링할 수 있습니다. 
+이러한 도구들은 일반적으로 더 자세한 정보와 유용한 기능을 제공합니다. 
+
+4. --trace-sync-io 옵션 사용:
+동기식 I/O 작업을 감지하여 성능 병목 현상을 찾을 수 있습니다. 
+성능 프로파일링 시 고려 사항:
+프로파일링은 애플리케이션의 성능에 영향을 줄 수 있으므로, 프로덕션 환경에서 프로파일링을 수행하기 전에 테스트 환경에서 충분히 테스트해야 합니다. 
+프로파일링 데이터는 매우 상세할 수 있으므로, 분석 도구를 사용하여 필요한 정보만 추출하는 것이 중요합니다. 
+프로파일링 결과는 특정 시점의 데이터이므로, 애플리케이션의 성능 변화를 추적하려면 주기적으로 프로파일링을 수행해야 합니다. 
+예시:
+코드
+
+# Node.js 기본 프로파일러 사용 예시
+node --prof server.js  # 서버 실행 시 프로파일링 시작
+# ... 서버 작업 수행 ...
+# Ctrl + C 로 프로파일링 종료
+node --prof-process isolate-0x123456789-v8.log > processed.txt # 로그 분석
+
+참고:
+node --help 명령어를 사용하여 Node.js 커맨드 라인 옵션을 자세히 확인 할 수 있습니다. 
+chrome://inspect 를 사용하여 Chrome DevTools를 통해 프로파일링을 수행할 수 있습니다. 
+비효율적인 코드를 찾았다면, 코드를 개선하거나 비동기 처리 방식으로 변경하여 성능을 향상시킬 수 있습니다. 
+
+
+
+
 ## Performance Tunning ##
 
 * [Quick benchmark of the AWS Graviton2 for Node.js applications](https://medium.com/@meego/quick-benchmarking-of-the-aws-graviton2-for-node-js-applications-1ffb78992acc)
