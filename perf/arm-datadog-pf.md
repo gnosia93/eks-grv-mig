@@ -33,3 +33,5 @@ You can enable the Datadog profiler within your Node.js application by using the
 Once enabled, the profiler will start collecting data about your application's CPU usage, memory allocation, and other performance metrics. 
 You can then use Datadog's dashboards and tools to analyze this data and identify any performance bottlenecks. 
 By leveraging Datadog's Continuous Profiler, developers can gain valuable insights into their ARM-based application's performance and optimize it for better efficiency and user experience. 
+
+* https://docs.datadoghq.com/ko/profiler/
