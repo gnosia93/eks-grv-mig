@@ -1,4 +1,7 @@
+## Node Architecture ##
+
 * [Node.js가 왜 싱글 스레드로 불리는지 "정확한 이유"를 알고 계신가요?](https://helloinyong.tistory.com/350)
+* [The V8 JavaScript Engine](https://nodejs.org/en/learn/getting-started/the-v8-javascript-engine#the-v8-javascript-engine)
 
 Node.js는 기본적으로 싱글 스레드 기반으로 작동하지만, libuv 라이브러리를 통해 비동기 I/O를 처리하여 멀티 스레드처럼 동작할 수 있습니다. 이벤트 루프와 작업자 스레드 풀을 활용하여 효율적인 병렬 처리를 지원합니다. 
 Node.js의 스레드 구조는 다음과 같이 요약할 수 있습니다: 
