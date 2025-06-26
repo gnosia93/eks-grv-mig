@@ -76,26 +76,34 @@ Node.js's single-threaded nature, while efficient for I/O-bound tasks due to its
 ### 1. Asynchronous Programming with async/await: ###
 Purpose:
 Primarily designed for handling I/O-bound operations (like network requests, file system interactions, database queries) in a non-blocking manner.
+
 Mechanism:
 Leverages the event loop to manage multiple concurrent operations without creating new threads. When an I/O operation is initiated, the main thread continues executing other tasks while the operation runs in the background. Once the I/O operation completes, a callback is added to the event queue, and the event loop processes it when the main thread is free. async/await provides a more readable, synchronous-like syntax for managing Promises, which are the foundation of asynchronous operations.
+
 Benefits:
 Efficient for I/O-bound tasks, improves responsiveness, and simplifies asynchronous code compared to traditional callbacks.
+
 Limitations:
 **Does not parallelize CPU-intensive tasks; such tasks will still block the single main thread, making the application unresponsive during their execution.**
 
 ### 2. Worker Threads: ###
 Purpose:
 Designed to handle CPU-intensive tasks (like complex calculations, image/video processing, data transformations) in parallel, preventing them from blocking the main event loop.
+
 Mechanism:
 Creates separate threads, each with its own V8 instance, allowing CPU-bound operations to run concurrently on different CPU cores. Communication between the main thread and worker threads occurs via message passing or shared memory.
+
 Benefits:
 Enables true parallelism for CPU-bound tasks, significantly improving performance and responsiveness for applications with heavy computational workloads.
+
 Limitations:
 Adds overhead due to thread creation and communication, not suitable for I/O-bound tasks where the non-blocking event loop is more efficient, and requires careful management of shared resources and communication to avoid race conditions.
-When to use which:
+
+### When to use which: ###
 Use async/await (and the underlying asynchronous I/O APIs) for:
 I/O-bound operations (network requests, file operations, database interactions).
 Tasks that involve waiting for external resources without significant computation.
+
 Use Worker Threads for:
 CPU-intensive tasks that would otherwise block the main event loop. 
 Tasks that can be broken down into independent units and processed in parallel.
