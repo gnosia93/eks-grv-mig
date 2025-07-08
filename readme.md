@@ -39,7 +39,8 @@
 * [Mixing AWS Graviton with x86 CPUs to optimize cost and resiliency using Amazon EKS](https://aws.amazon.com/blogs/compute/mixing-aws-graviton-with-x86-cpus-to-optimize-cost-and-resilience-using-amazon-eks/)
 * [Considerations when transitioning workloads to AWS Graviton](https://github.com/aws/aws-graviton-getting-started/blob/main/transition-guide.md)
 * [Optimizing Cloud Infrastructure: A DevOps Journey from x86 to ARM (Graviton) Architecture](https://medium.com/@Nick_Chekushkin/optimizing-cloud-infrastructure-a-devops-journey-from-x86-to-arm-graviton-architecture-78df829d39c6)
-
+* https://bell-sw.com/announcements/2020/10/28/JVM-in-Linux-containers-surviving-the-isolation/
+  
 ## Revision History ##
 * 2024-12-13 First Released
 
