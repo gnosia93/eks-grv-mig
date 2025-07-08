@@ -30,7 +30,7 @@
     - [대시보드 설정](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-mon.md)
     - [부하 테스트(x86 vs 그라비톤)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-ab.md)
 
-8. Perf Profiling
+8. Profiling
 
     - [perf를 이용한 자바 프로파일링](https://github.com/gnosia93/eks-on-arm/blob/main/tutorial/8.perf-profiling.md)
     
