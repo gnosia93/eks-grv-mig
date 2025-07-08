@@ -33,7 +33,7 @@
 8. Profiling
 
     - [perf를 이용한 자바 프로파일링](https://github.com/gnosia93/eks-on-arm/blob/main/tutorial/8.perf-profiling.md)
-    
+    - https://www.baeldung.com/java-flight-recorder-monitoring
 ## Blogs ##
 
 * [Mixing AWS Graviton with x86 CPUs to optimize cost and resiliency using Amazon EKS](https://aws.amazon.com/blogs/compute/mixing-aws-graviton-with-x86-cpus-to-optimize-cost-and-resilience-using-amazon-eks/)
