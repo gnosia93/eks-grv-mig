@@ -48,5 +48,5 @@
 * https://www.eksworkshop.com/
 * https://github.com/aws-ia/terraform-aws-eks-blueprints
 * https://workshops.aws/categories/Containers?tag=Graviton
-* https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main
+* [How to rapidly scale your application with ALB on EKS (without losing traffic)](https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main)
 * [Simple Web Application of multi-arch images of Graviton3(c7g) and Intel/AMD(c6) instacnes](https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main/simple-multiarch-app)
