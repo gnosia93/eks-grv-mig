@@ -31,9 +31,9 @@
     - [부하 테스트(x86 vs 그라비톤)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-ab.md)
 
 8. Perf Profiling
-    
-    - [How to use perf to monitor Java performance](https://bell-sw.com/announcements/2022/04/07/how-to-use-perf-to-monitor-java-performance/)
 
+    - [perf를 이용한 자바 프로파일링](https://github.com/gnosia93/eks-on-arm/blob/main/tutorial/8.perf-profiling.md)
+    
 ## Blogs ##
 
 * [Mixing AWS Graviton with x86 CPUs to optimize cost and resiliency using Amazon EKS](https://aws.amazon.com/blogs/compute/mixing-aws-graviton-with-x86-cpus-to-optimize-cost-and-resilience-using-amazon-eks/)
