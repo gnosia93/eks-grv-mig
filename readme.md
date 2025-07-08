@@ -34,6 +34,11 @@
     
     - https://bell-sw.com/announcements/2022/04/07/how-to-use-perf-to-monitor-java-performance/
 
+## Blogs ##
+
+* [Mixing AWS Graviton with x86 CPUs to optimize cost and resiliency using Amazon EKS](https://aws.amazon.com/blogs/compute/mixing-aws-graviton-with-x86-cpus-to-optimize-cost-and-resilience-using-amazon-eks/)
+
+
 ## Revision History ##
 * 2024-12-13 First Released
 
