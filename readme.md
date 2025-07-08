@@ -49,3 +49,4 @@
 * https://github.com/aws-ia/terraform-aws-eks-blueprints
 * https://workshops.aws/categories/Containers?tag=Graviton
 * https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main
+* https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main/simple-multiarch-app
