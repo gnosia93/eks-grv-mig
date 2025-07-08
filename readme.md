@@ -30,7 +30,9 @@
     - [대시보드 설정](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-mon.md)
     - [부하 테스트(x86 vs 그라비톤)](https://github.com/gnosia93/eks-grv-mig/blob/main/tutorial/6.perf-ab.md)
 
-
+8. Perf Profiling
+    
+    - https://bell-sw.com/announcements/2022/04/07/how-to-use-perf-to-monitor-java-performance/
 
 ## Revision History ##
 * 2024-12-13 First Released
