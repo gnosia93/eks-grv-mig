@@ -49,4 +49,4 @@
 * https://github.com/aws-ia/terraform-aws-eks-blueprints
 * https://workshops.aws/categories/Containers?tag=Graviton
 * https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main
-* https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main/simple-multiarch-app
+* [Simple Web Application of multi-arch images of Graviton3(c7g) and Intel/AMD(c6) instacnes](https://github.com/aws-samples/app-health-with-aws-load-balancer-controller/tree/main/simple-multiarch-app)
