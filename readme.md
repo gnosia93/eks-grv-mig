@@ -37,7 +37,7 @@
 ## Blogs ##
 
 * [Mixing AWS Graviton with x86 CPUs to optimize cost and resiliency using Amazon EKS](https://aws.amazon.com/blogs/compute/mixing-aws-graviton-with-x86-cpus-to-optimize-cost-and-resilience-using-amazon-eks/)
-* https://github.com/aws/aws-graviton-getting-started/blob/main/transition-guide.md
+* [Considerations when transitioning workloads to AWS Graviton](https://github.com/aws/aws-graviton-getting-started/blob/main/transition-guide.md)
 
 
 ## Revision History ##
