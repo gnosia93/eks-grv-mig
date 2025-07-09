@@ -37,7 +37,7 @@
 
 9. Observability
     
-   - endpoint latency - https://medium.com/@alex067/enabling-ingress-path-metrics-in-eks-aws-ingress-controller-47dc70b52828
+   - endpoint(URL) latency - https://medium.com/@alex067/enabling-ingress-path-metrics-in-eks-aws-ingress-controller-47dc70b52828
      
 ## Blogs ##
 
