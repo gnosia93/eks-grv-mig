@@ -45,6 +45,9 @@
 * [Considerations when transitioning workloads to AWS Graviton](https://github.com/aws/aws-graviton-getting-started/blob/main/transition-guide.md)
 * [Optimizing Cloud Infrastructure: A DevOps Journey from x86 to ARM (Graviton) Architecture](https://medium.com/@Nick_Chekushkin/optimizing-cloud-infrastructure-a-devops-journey-from-x86-to-arm-graviton-architecture-78df829d39c6)
 * https://bell-sw.com/announcements/2020/10/28/JVM-in-Linux-containers-surviving-the-isolation/
+* [ARM의 ARMv9 아키텍처 발표: SVE2, 개선된 보안 및 향후 10년을 바라보며](https://blog.naver.com/steve5636/222295280395)
+
+
   
 ## Revision History ##
 * 2024-12-13 First Released
