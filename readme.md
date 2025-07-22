@@ -47,7 +47,7 @@
 * https://bell-sw.com/announcements/2020/10/28/JVM-in-Linux-containers-surviving-the-isolation/
 * [ARM의 ARMv9 아키텍처 발표: SVE2, 개선된 보안 및 향후 10년을 바라보며](https://blog.naver.com/steve5636/222295280395)
 * [컨테이너 빌드 도구 선택을 위한 특성 및 성능 비교 (Kaniko, Buildah, Buildkit)](https://nangman14.tistory.com/92)
-
+* [AWS Graviton Processors: An In-Depth Look at AWS’s ARM-Based Evolution](https://medium.com/@sufleio/aws-graviton-processors-an-in-depth-look-at-awss-arm-based-evolution-02ffc316ef1d)
   
 ## Revision History ##
 * 2024-12-13 First Released
