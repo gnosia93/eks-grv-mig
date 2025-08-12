@@ -51,7 +51,7 @@
 
 ---
 * https://aws.amazon.com/ko/blogs/containers/bootstrapping-clusters-with-eks-blueprints/
-
+* https://medium.com/@krishna.arjun/how-to-deploy-your-node-js-server-on-aws-ecs-eae44efcbfde
   
 ## Revision History ##
 * 2024-12-13 First Released
