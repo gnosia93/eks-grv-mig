@@ -38,6 +38,10 @@
 9. Observability
     
    - endpoint(URL) latency - https://medium.com/@alex067/enabling-ingress-path-metrics-in-eks-aws-ingress-controller-47dc70b52828
+
+10. CI-CD
+
+   - https://blog.gangnamunni.com/post/saas-private-aws-eks
      
 ## Blogs ##
 
